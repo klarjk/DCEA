@@ -1,0 +1,107 @@
+# Controlling Flavor Change via Flow Velocity - Theory
+Published: September 25, 2023
+URL: https://blog.naver.com/klar201/223221200063
+
+se-main-container">
+This time, as the final installment of the flow velocity and flavor series, I'll cover applying it to actual brewing.
+Since it looked like it would get long, I'm splitting it into two posts — the first organizing the theory, and the second discussing methodology.
+In this first, theoretical post, I'll organize a theory inferring the flow velocity of conical and flat-bottom drippers and IMS/VST baskets to examine how flavor characteristics show up,
+and since this is organizing tedious theory and hypotheses, if you're not interested in this kind of physics, I'd recommend just skimming the summary and moving on.
+(1) Dripper
+[image: https://postfiles.pstatic.net/MjAyMzA5MjRfNjkg/MDAxNjk1NTIyNDY1ODQ2.S4MpjReZTRG6Bhqyoi2jbf6mAVDpnKcgWLxUXVqmldAg.gUetFpS2BsfZREO8CBTnLWzTsE0OQfqMcpI-eV1wenUg.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-09-24_%EC%98%A4%EC%A0%84_11.21.15.png?type=w580]
+This is the V60, a representative conical dripper.
+It's known as a dripper with a brighter acidity tone and stronger flavor compared to flat-bottom drippers.
+When a shape narrows toward the bottom like that, the flow velocity at the top and bottom differs according to Bernoulli's principle.
+(Reference: Bernoulli's principle - https://blog.naver.com/klar201/223195486991)
+First, for those unfamiliar with the terms, let's start with the definitions of flow rate and flow velocity.
+Flow rate is flow rate — the amount of fluid passing through a point per unit time, with units of (volume or mass) / time.
+A common feature on expensive brewing scales is flow rate measurement, which calculates how much the weight increases per second and displays it on the screen.
+And flow velocity is, literally, the speed of the fluid — the rate at which fluid particles move, i.e., distance traveled per unit time. The units are distance / time.
+Coming back to it, according to Bernoulli's principle, the flow rate at positions 1 and 2 is the same, but the flow velocity at position 1 is slower than at position 2, and position 2 is relatively faster than position 1.
+(If you're curious about the detailed principle, please read the Bernoulli's principle reference above.)
+And since the flow velocity at each point is inversely proportional to the cross-sectional area, the flow velocity increases by the same ratio that the cross-sectional area decreases.
+If the cross-sectional area at position 2 is half that of position 1, the flow velocity at position 2 becomes twice that of position 1.
+(This is a theoretical case and, of course, not exact.)
+[image: https://postfiles.pstatic.net/MjAyMzA5MjRfMjQw/MDAxNjk1NTI0NDYwMDEw.lgjxCltFT95YCh6Z909uKQZIwgbKoFQ3w025b9HYr0Qg.wU0DEb17fstjcGg76WCuxaIVTiQZPGsVW44W4ZC2epsg.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-09-24_%EC%98%A4%EC%A0%84_11.22.03.png?type=w580]
+Let's compare with a flat-bottom dripper. (This is the April glass brewer.)
+Even visually, it's clearly noticeable that the difference in cross-sectional area between positions 1 and 2 is smaller compared to the V60.
+Therefore, the flow velocity at position 2 is slightly faster than at position 1, but it can be seen as not a big difference.
+In sum, even assuming the flow rate is the same for conical and flat-bottom drippers,
+the degree to which flow velocity increases toward the bottom is much greater for the conical dripper,
+so coffee in a conical dripper is affected by the faster flow velocity, resulting in more flavor compound extraction, and it's the opposite for flat-bottom.
+Example) A comparison of flow velocity in conical and flat-bottom drippers, where the flow rate is 2mlps for both, the top cross-sectional area is the same, and the top flow velocity is assumed to be 1
+(assuming the conical's bottom cross-sectional area is 50% of the top, and the flat-bottom's is 80%)
+Flow rate (conical)
+Flow rate (flat-bottom)
+Bottom-to-top cross-sectional area ratio (conical)
+Bottom-to-top cross-sectional area ratio (flat-bottom)
+Flow velocity (conical)
+Flow velocity (flat-bottom)
+Top
+2mlps
+2mlps
+1
+1
+1
+1
+Bottom
+2mlps
+2mlps
+0.5
+0.8
+2
+1.25
+Bottom flow velocity ratio, conical:flat-bottom = 2 : 1.25 = 1.6
+In other words, the flow velocity at the bottom of the conical dripper is 1.6 times faster than the flat-bottom's.
+Next, let's look at the persistence of flow rate.
+[image: https://postfiles.pstatic.net/MjAyMzA5MjRfMTk0/MDAxNjk1NTI1OTA4MDMw.H9VuBpTqvR4b4HuGwWjCO1l29P2JxC-6h2VAucCruR8g.D8SbzwXS4yPea6ejj5ZylJFBnPF88qwr3fbAjVXi2LIg.JPEG.klar201/IMG_3814.jpeg?type=w580]
+Excerpted from *The Physics of Filter Coffee* (by J. Gagne)
+The graph above is a simple representation, derived by formula, of how flow rate changes over time in conical and cylindrical drippers.
+You can see that the conical dripper maintains a high flow rate well, but instead the flow rate drops sharply in the later stage, so clogging occurs readily,
+while the cylindrical dripper's flow rate decreases quickly but has the characteristic of maintaining a low flow rate well without clogging.
+Putting it all together,
+the conical dripper is affected by a relatively faster flow velocity compared to the flat-bottom dripper,
+and since the overall flow rate also maintains a high value for longer, the amount of flavor compound extraction is greater,
+while the flat-bottom, conversely, can be seen to exhibit sensory notes centered on sweetness rather than flavor compounds.
+(2) Espresso Basket
+Baskets can also be divided into baskets with a wide bottom perforation cross-sectional area (e.g., VST) and baskets with a narrow area (e.g., IMS type M).
+[image: https://postfiles.pstatic.net/MjAyMzA5MjRfMjQ4/MDAxNjk1NTI4MzExMjA5.AEgBi_EbRR4kN7kjOAHP8tcy7eJh5B3OS14W3pj7zJYg.65-7U0WcKOpi0qAWnH_0WNyNx2lepuZvraXXEPDEq2gg.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-09-24_%EC%98%A4%ED%9B%84_1.03.26.png?type=w580]
+Excerpted from weberworkshops.com
+Likewise, the greater the difference between the top and bottom area, the faster the flow velocity at the bottom becomes.
+If you've understood all of the above well,
+you might have the question, 'In the case of VST and IMS, in practice VST — with a smaller top-bottom area difference — seems to extract flavor better than IMS, which has a larger difference. Why is that?'
+The reason, simply put, can be seen as a difference in overall flow rate.
+In espresso, the particles are fine, so the coffee particles act significantly as resistance.
+Whereas in filter brewing the flow rate typically peaks at around 3mlps after the pre-wet and then gradually decreases,
+in espresso it starts at a very low flow rate close to 0, increases to around 0.8~2.5mlps, and ends in a very short time of around 30 seconds.
+Generally, situations using IMS involve dark roast, so most cases extract at a low flow rate of 0.8~2mlps or below — an empirical flow rate — meaning a brew time of 30 seconds or more.
+In other words, since the overall flow rate itself is very low, it can be seen that whether there's a relative flow velocity difference or not has little effect.
+So then, what would happen if an IMS basket were used for light roast, high-flow-rate extraction?
+[image: https://postfiles.pstatic.net/MjAyMzA5MjRfNTMg/MDAxNjk1NTM1ODU3NjM5.awV1r--PmQJL-j-j797pAcWLKcn_VaASFJohXOdiregg.3VmBQlY8JFhtkbIRN_P3CaaZfZmfEborpwez2vK4dlUg.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-09-24_%EC%98%A4%ED%9B%84_3.08.24.png?type=w580]
+Let's assume an IMS M basket.
+As mentioned above, when there's a difference in top-bottom diameter, the flow velocity differs.
+Also, when the diameter narrows toward the bottom, the resistance becomes higher, so during preinfusion the difference between the particle spacing in zone 1 and the particle spacing in zone 2 becomes greater.
+(The particle spacing in zone 2 becomes much narrower.)
+Therefore, the extraction in zones 1 and 2 becomes very different,
+in zone 1, many coffee compounds are extracted but flavor compound extraction is low,
+while in zone 2, coffee compounds aren't extracted much but flavor compound extraction increases — extraction proceeds unevenly in this direction.
+As a result, since espresso concentration is usually very high, you'll experience a piercing, strongly harsh acidity from the excessive concentration of flavor compounds.
+(Of course, if you adjust the grind size to match an appropriate flow rate, you could achieve balance, but the difficulty of adjustment is higher compared to VST, and the overall concentration, body, and sweetness will feel lacking.)
+What if a barista judges this strong acidity to be due to low extraction yield and adjusts to run preinfusion more gently?
+Since the deviation in particle spacing between zones 1 and 2 becomes smaller, there could of course be a good result.
+But since the basic structure itself is shaped so the flow converges inward, the cause of the faster flow velocity at the bottom remains unchanged,
+and due to preinfusion the overall flow rate becomes higher,
+the narrow-particle-spacing part of zone 2 becomes even thinner, and excessive flavor extraction occurs there.
+When excessive flavor extraction occurs in a narrow region like this, a bitter aftertaste usually appears.
+(In other words, the difficulty of adjusting via preinfusion is also high.)
+In other words, to summarize,
+depending on basket shape, with center-concentrated perforation, extraction uniformity decreases, extraction yield also decreases, and flavor increases.
+Conversely, the more even the perforation shape, the better the extraction uniformity, the higher the extraction yield, and the lower the flavor.
+(Because of the above reason, you can see why there are many reviews saying high-yield baskets were good for dark roast extraction.)
+It can be seen that we normally use the IMS basket not to bring out flavor but to lower the overall flow rate through higher resistance.
+Also, if you want to use it to bring out flavor, extraction uniformity drops and high acidity accompanies it, and since espresso itself has high concentration and is likely to have excessive flavor, it can also be seen that VST, with somewhat less flavor extraction, is easier than IMS for achieving balance.
+(Likewise, if you extract with a high-yield basket using the same light roast VST settings, it usually comes out with a dark tone where the flavor is dead, in many cases.)
+In the next post, based on the above theory, I'll cover how to modify a recipe in filter brewing based on sensory evaluation.
+Since flow rate measurement isn't easy for espresso except with Decent or Belkafilter,
+I won't go out of my way to cover it and will move on.
+<div id="

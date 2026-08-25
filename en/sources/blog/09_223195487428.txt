@@ -1,0 +1,53 @@
+# Espresso Series III. Crema
+Published: August 28, 2023
+URL: https://blog.naver.com/klar201/223195487428
+
+se-main-container">
+In this installment, I'll write about the principle behind how crema forms.
+In classic espresso, crema was proof of fresh coffee, and visually so striking that espresso served in a white demitasse with thick, springy crema literally became the symbol of coffee.
+But the taste of crema itself is harsh, and as the roast level has come down with the development of specialty coffee culture, unconditional worship of crema has gradually been losing ground.
+Still, for dark-roast coffee it's an indispensable element, and I think it's an element that absolutely can't be ignored, since it's not only an indicator of freshness but also evidence of good texture — and my view is that even for light roast, crema that's far too thin means the flavor is sharp and hollow in the middle, so a reasonable amount is needed.
+I think crema is, in essence, similar in its formation principle to meringue.
+That is, just as continuously whipping cream with a whisk breaks air bubbles down finely to make meringue or whipped cream, water, fat, and fine gas bubbles meet to form something in a cream-like state.
+There are a few conditions for taking on this cream-like form: first, gas has to be present, then a means to break that gas down finely is needed, and also water and fat need to receive physical energy and mix around the gas to form a colloid.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjhfMjE0/MDAxNjkzMTg1MTI2MjY3.jLJ78eReBm6nEu_UZbFHBb3HzapO_HQNTHO16CseOhwg.heK-AGhcKqiVdX2dCdH2rN5yQKtQBHIpYuc4MTVhTl0g.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-08-28_%EC%98%A4%EC%A0%84_10.11.55.png?type=w580]
+Colloid
+A colloid is a state in which two substances that don't mix are broken down very finely and mixed uniformly with each other; normally, water and fat don't dissolve into each other well and separate into layers, top and bottom, because of their difference in specific gravity, but if you keep applying kinetic energy to break them down finely and mix them evenly, they briefly hold a uniformly mixed, finely divided state — and this state, mixed physically rather than dissolved or bonded chemically, is called a colloid.
+This happens more readily when some other fine particulate component acts as a seed that can hold water and fat together, and the classic example is the starch used in cooking.
+(If you add starch to a sauce where water and oil are mixed and stir while applying heat, the water and oil mix evenly and it thickens.)
+(In the case of whipped cream, there's no separate component acting as a nucleus, so lowering the temperature to let it firm up and better hold the colloidal state makes the cream firmer and longer-lasting.)
+So to sum up, with crema, the narrow gaps between coffee particles act as a sieve, and the gas that's generated meets the water and the fat carried along with the water, receiving kinetic energy from the flow that permeates rapidly through the puck, forming a colloidal state that holds fine gas bubbles.
+If you don't know why the flow velocity of water inside the puck is fast, I recommend going back to the previous installment on Bernoulli's theorem.
+Based on the hypothesis above, let's look at how each variable affects crema formation.
+Roast date and roast level: the amount of gas generated changes drastically with roast date and roast level, so this has the biggest influence on the amount of crema.
+Temperature: the higher the temperature, the more gas is generated, so the amount of crema increases.
+Brew speed: the faster the flow velocity, the more kinetic energy is applied and the more fat gets washed out, so the amount of crema increases. Accordingly, right after the brew starts, when the brew speed is slowest, extraction begins with a dark, blackish color rather than crema's gold, and as the brew proceeds and the speed gradually increases, the gold deepens, and once the gas runs low and generation starts to fall off, it starts to lighten.
+Pressure: the higher the headspace pressure, the more likely the pressure difference between the headspace and the water flowing inside the puck is to grow, and the flow velocity of water inside the puck speeds up accordingly, so the higher the pressure, the more crema is generated. (If this is hard to follow, I recommend revisiting the previous installment on Bernoulli's theorem.)
+Grind size: within a certain range, the finer the particles, the faster the pressure rises, forming good resistance in the puck, and the gap between particles narrows so the flow velocity inside the puck speeds up and the amount of crema increases — but once the particle size goes finer than a certain point, the overall flow rate can't rise high enough, so the amount of crema actually starts to decrease instead.
+Brew ratio: when you fix the brew time at 30 seconds and vary the brew flow rate to change the brew ratio, for a ristretto the peak brew flow rate is too low, so the amount (proportion) of crema is actually small; the proportion of crema is highest around a slight lungo tendency (1:2.2, according to some sources), and beyond that the pressure that's applied gets progressively lower, so the crema proportion decreases.
+Preinfusion: the more strongly you run preinfusion, the more it forms zones of densely packed particles at the bottom of the puck, so the crema proportion increases.
+Headspace: the smaller the headspace, the more strongly preinfusion runs, so, same as the preinfusion factor above, the crema proportion increases.
+Basket: with a narrow open-area ratio, like an IMS M-series basket, lateral uniformity of extraction gets worse, but instead the water flow concentrates toward the center as it goes down, so the pressure difference from the headspace grows larger and the flow velocity gets faster, increasing the crema proportion (compared to a basket with a wider open-area ratio).
+PSD: the higher the proportion of fines in the grinder's particle size distribution, and the lower the uniformity of the large particles, the better the puck forms resistance during preinfusion and the more it forms densely packed particle zones at the bottom of the puck, so the crema proportion increases.
+As an aside, crema's color depends on grind size — coarser is lighter, finer is darker — because the finer the grind, the more fines there are and the more end up in the cup.
+Some people see what's called tiger striping — where fines form a pattern on top of the crema — as an indicator of well-extracted coffee, but I think it's not good, since fines basically carry poor sensory notes and irritate the stomach.
+Next, let me introduce a few crema-related brewing methods I actually use, along with the reasons why.
+· Since crema is a form where gas extracted from the coffee is finely dispersed and trapped in coffee cream (a mixture of water and fat), crema's own flavor tends to be strong and likely harsh.
+That said, brewing without crema inevitably leaves the texture lacking, so what I prefer is to extract plenty of crema and instead split it with a two-spout portafilter to cut the amount of crema in half.
+For dark roast, the crema proportion is usually very high, so I recommend unconditionally splitting the shot with the spouts; for light roast the proportion is lower, but the flavor is often strong because of a usually fast brew speed, so if you want to cut back even a little on harsh flavor, I likewise recommend splitting the shot.
+(This is for espresso. It doesn't matter for other variations like Americano or long black.)
+· For a blend containing robusta, the crema proportion gets very high because of the higher fat content, so there's an advantage even when brewing as ristretto,
+and for a regular brew, using a lever-machine-style profile that lowers pressure and flow rate later in the shot lets plenty of crema come out even with less pressure and flow velocity, while suppressing the brew speed that would otherwise speed up later on, reducing the extraction of harsh flavor.
+(Since robusta's characteristic flavor isn't good, I prefer this kind of lever-machine-style profile.)
+· For dark roast, I prefer a body-centered extraction, and I set the extraction direction toward suppressing bad flavor as much as possible. So the goal is an extraction that maximizes crema. (In exchange, I always use a split portafilter.)
+· Briefly: I use an IMS 24.5M basket with a 17.5 g dose and a puck screen, using a basket with a small open-area ratio while minimizing headspace as much as possible.
+I also set the grind size as coarse as possible while running preinfusion quickly, and adjust the grinder's RPM toward the direction where unimodality generates more fines.
+For extraction profiling, I use flat for a coffee with a bit of acidity still alive, and for one that's dark black with no acidity at all or a blend containing robusta, I use a profile where the pressure gradually decreases later on, to kill as much flavor as possible.
+The temperature is 86°C, and the peak flow rate in the later part is usually 1.7–1.8 mlps. (For a robusta blend, pressure-decrease profile.)
+· It should be taken into account that my equipment is generally set up with a yield-centered configuration.
+A machine with a high water debit, or a grinder that yields a low extraction yield, may need to secure an adequate headspace.
+(Note)
+Briefly on the puck screen: I use it to reduce the amount of coffee used without increasing the headspace. (A clean shower screen after the brew is a bonus.)
+However, it tends to make edge-biased extraction toward the basket's rim happen more easily, so I only use it when running preinfusion at maximum flow rate.
+(Only when the puck is compressed downward quickly by running at maximum flow rate can edge-biased extraction be reduced.)
+<div id="

@@ -1,0 +1,255 @@
+# [Café manuscript] An Exploration of Preinfusion Using the Decent Machine
+Published: February 10, 2023 (shared to blog: March 8, 2023)
+URL: https://blog.naver.com/klar201/223038334365 (the blog post carries only a café link, no body text)
+Original source: Naver Café Home Barista Club — the author's (klar201) own post
+Note: The blog scrape did not capture a body, so the author's local manuscript (vault/커피/수정본.md) is used as the body text.
+      This is written six months before Espresso Series I (Source 11, 2023.8) — if Source 11 is the theory, this piece is the Decent measurement.
+
+The Decent machine measures the motor pump's rotation speed, and once you calibrate it for the voltage in use, it can measure the machine's flow velocity in real time.
+I'm not sure whether this method is accurate or not, but it's said to have the advantage of detecting slow flow velocities under 2ml/s better than a standard flowmeter.
+Because the machine's flow velocity can be measured this way, the Decent can run on a flow-rate profile as well as a pressure profile, and — like other machines that control preinfusion using needle valves, solenoid valves, and so on —
+it lets you try both low-pressure and low-flow-rate preinfusion.
+
+In particular, being able to measure flow rate has made it possible to quantify the puck's resistance (drag is proportional to pressure and inversely proportional to the square of flow velocity),
+so I've recently focused on observing how the puck's resistance changes depending on the preinfusion method,
+checking in particular whether the traditional approach of "ramping up pressure after a low-pressure preinfusion up to the dwell time (the time until the first drop falls)"
+actually lowers the puck's resistance and leads to a stable extraction —
+and I'd like to share what I found and thought about along the way.
+
+I didn't major in fluid dynamics or mechanical engineering — I'm an ordinary person whose scientific knowledge tops out at high-school Physics II.
+There are naturally likely to be mistakes in here, so please just treat this piece as a space for discussion, and I'd appreciate it if you'd let me know in the comments any time something isn't right.
+
+
+(0) Why pre-infusion?
+
+Preinfusion is known to have the advantage of wetting the puck first at low flow rate or low pressure before applying pressure,
+which enables a stable extraction, lowers the chance of channeling, and gains consistency.
+On the other hand, it can have the downside that, because the extraction runs at low pressure overall, the amount of crema decreases, which actually makes the body and texture worse.
+There's also a view that it's actually bad for even extraction, since it widens the gap in when extraction starts between the top and bottom of the puck, but in my experience,
+(in the ordinary case) the difference between the dwell time of a profile that ramps pressure fully and the dwell time of a profile with some preinfusion
+is mostly under about 4 seconds, and assuming the puck wets at a constant speed, the difference in the average brew time across the whole puck is about half that, around 2 seconds.
+I think its role isn't so much aiming for a 100-point result once in a while as making a 90-point result likely with high probability.
+
+
+(1) Filling headspace
+
+Once you start the machine, of course water begins falling from the shower screen and starts filling the headspace, and at the same time the coffee puck begins to get wet due to capillary action.
+
+https://youtu.be/7A-L00q5a1o?t=473
+
+This is a video someone from abroad posted using a transparent portafilter.
+The description at the start of the video says it's a Rocket e61 machine, and with an OPV switch fitted, it extracted at 4 bar early on (looks like 0-10 seconds) and 9 bar after that.
+
+In the video, filling that empty space above takes about 5 seconds, and the first choice we face here is whether to fill this headspace quickly, Faema-style, or slowly, like a Slayer.
+
+If you fill it slowly, you can reduce the impact the falling water drops have on the coffee puck, so it's reasonable to guess the stability at the top of the puck would be better
+(and in fact, if you look at the video, you can see coffee grounds floating around and moving all over the headspace),
+but the downside is that, watching the shower screen while flushing, the water almost never falls exactly evenly.
+Once the headspace is filled this probably won't matter much,
+but in a situation like the first 5 seconds, where the water spreads out from wherever the drops happen to land, I think it would seriously affect the puck's uniformity.
+
+So I think it's better to fill the first roughly 15 ml at as fast a flow velocity as possible, though I haven't actually run a separate comparison.
+This is purely a guess, so it carries no real credibility. (Sorry, Slayer owners.)
+
+
+(2) Preinfusion — Assumptions
+
+Let's start by laying out a few assumptions.
+
+Capillary action and pressure
+- There are broadly two factors at work in the process of the puck getting wet: pressure and time (via capillary action). (Other factors are assumed constant.)
+- Capillary action spreads outward at a constant speed in every direction, regardless of up/down/left/right. (If grind size and dose are the same, wetting will always finish in about the same time.)
+- Pressure acts mainly along the vertical direction and increases the speed at which capillary action wets the puck.
+- Therefore, the more pressure acts, the more directionality is introduced, and the wetting becomes uneven.
+- To wet evenly, you have to exclude pressure as much as possible and maximize capillary action while wetting proceeds.
+
+The slope of the pressure increase
+- If pressure is increased sharply while wetting is not yet complete, the gap between particles on the unwetted side will narrow further compared to the wetted side, and resistance will rise very high.
+- Even if wetting is complete, if pressure is increased sharply, the speed at which coffee escapes from the bottom of the puck doesn't easily change, so it acts as resistance and resistance rises, and the force with which water pushes in gets stronger, so instability at the top of the puck will grow.
+- Conversely, if pressure is increased gently, water gains time to escape out the bottom, so the rise in resistance is smaller, and the extraction will be that much more stable.
+
+How resistance changes as wetting proceeds
+- As the puck gets wet further down from the top, the number of coffee particles the water has to pass through increases, so resistance will rise.
+- So if you exclude the action of pressure as much as possible and run the infusion at low pressure, resistance will gradually rise and reach its maximum at the dwell time; once extraction begins, flow is established, friction decreases, and as coffee compounds leave, resistance will gradually decrease. (Strictly speaking extraction starts from the moment water touches the coffee, but for convenience I'll call the point coffee starts dripping the start.)
+
+Puck stability after extraction begins
+- If the machine's flow velocity and the extraction flow velocity are the same, the puck is acting like a conduit — a stable state.
+- If the machine's flow velocity is faster than the extraction flow velocity, that's the situation described above where pressure rises quickly, and the top of the puck becomes unstable.
+- If the extraction flow velocity is faster than the machine's flow velocity, gas that had been compressed by the pressure acts like an elastic body, and the coffee coming out gets an extra push and bursts out. This is a state where the bottom of the puck becomes unstable.
+
+Putting all these assumptions together,
+the lever-machine approach of running a low-pressure infusion up to the dwell time before extraction seems like it would be the right method,
+and compared to an actual extraction on a flat profile with almost no preinfusion,
+the peak resistance value should be smaller, and the change in resistance should show up as a simple rise-then-fall — an inverted-V (ㅅ) shape.
+And most importantly, what determines whether preinfusion succeeds — that is, the stability of the puck in the early part of the extraction —
+can be judged by whether the gap between the machine's flow velocity and the extraction flow velocity narrows when extraction starts.
+
+
+(3) Preinfusion — In Practice
+
+Let's first look at the graph for the flat profile. (All extractions were run at a baseline of 6 bar.)
+
+
+[[이미지 2023. 2. 5. 오전 11.51.jpg]]
+
+
+(The first 2 seconds started out looking odd because the temperature was set wrong. It's not a big effect, so let's move past it.)
+The dwell time came out to 9 seconds.
+Let's take a look at the resistance graph.
+
+
+[[스크린샷 2023-02-05 오전 11.56.37.png]]
+
+
+Yeah. It blew through the ceiling.
+Between roughly 10 and 14 seconds, pressure is held steady at 6 bar,
+and since there's no change in flow velocity, it seems to have measured as infinite.
+
+And if you look at the red circle in the first graph,
+you can see that at the point extraction starts, there's a gap between the machine's flow velocity and the extracted coffee's flow velocity.
+
+Next, let's look at a profile where preinfusion is run up to the "dwell time that shows up when weak pressure is applied."
+
+First, I ran several extractions with a profile with a long preinfusion at 2.5 bar or below,
+and confirmed that the dwell time consistently showed up around 12 seconds.
+So I ran preinfusion up to 12 seconds at a maximum of about 2.5 bar,
+then gradually increased pressure over the next 6 seconds before gently decreasing it. (I won't cover the back half of the extraction yet.)
+
+
+[[IMG_1318.jpeg]]
+
+
+As expected, the dwell time again came out at 12 seconds,
+and of course the peak resistance dropped a lot compared to the previous infinite value.
+Even though pressure rises after extraction starts, because the puck is almost entirely wetted by that point,
+and the extraction is proceeding stably,
+resistance doesn't rise — it shows a gentle decline instead.
+And you can confirm that the flow-velocity gap at the point extraction starts has narrowed a lot too.
+
+
+(4) Criticism
+
+Running preinfusion this way gives the minimum preinfusion time that's "theoretically correct,"
+but there's always a gap from reality.
+If you look at the graph just above, there's too much of the extraction happening at low pressure.
+If you define espresso the traditional Italian way, as only what's extracted at 6 bar or above,
+then that might be hard to even call espresso.
+
+In fact, even judging by sensory evaluation, 12 seconds of preinfusion is a bit much.
+If you're going to pull a shot with no crema anyway, you'd be better off just pulling a turbo shot instead.
+(For a long black or an Americano it wouldn't matter — it'd probably be better, even.)
+
+It does look like you genuinely gain stability early in the extraction,
+but as the puck's resistance drops overall, the flow velocity late in the extraction becomes very fast,
+and this widens the gap between the extraction flow velocity and the machine's flow velocity in the back half even further,
+which will result in the bottom of the puck becoming unstable. (In fact, channeling is common as the extraction is finishing up.)
+
+That said, if you don't do any preinfusion at all, the puck collapses right from the early part and you get spritzers (water jetting through the basket holes) from start to finish,
+so a compromise is needed, sacrificing a bit of stability.
+
+
+(5) A Revision
+
+This time, let's try bringing extraction forward a bit so that pressure ramping finishes by the dwell time (12 seconds) of the previous low-pressure extraction.
+
+Fill (2 s) - Infusion (4 s) - Ramp (6 s) - Hold (you could call this 6 seconds of preinfusion.)
+
+
+[[스크린샷 2023-02-06 오후 6.08.21.png]]
+
+
+Looking at what changed compared to before,
+as a result of the earlier pressure ramp, the dwell time sped back up to 9 seconds,
+and the point of peak resistance was pushed back a bit too. (It looks like, because coffee extraction started earlier, filling took longer.)
+And, as shown by the red circle on the left, the flow-velocity gap widened again.
+
+In exchange, the amount of crema clearly increased, and it lasted longer too.
+And unexpectedly, the peak resistance actually dropped compared to the previous profile.
+Probably because pressure was ramped gradually, the degree to which the dry side got compressed wasn't that large,
+and since the puck wasn't fully wetted, the number of coffee particles the water had to pass through was smaller.
+
+
+(6) Extraction Stability
+
+Stability in the front half of the extraction appears to increase the further you run preinfusion,
+but in the back half, if the roast level is light, the gap between the extraction flow velocity and the machine's flow velocity inevitably tends to keep growing.
+While thinking about how to reduce channeling, I came up with a few methods.
+
+1. Since it's compressed carbon dioxide bursting out at the bottom of the puck, lay a paper filter on the bottom to keep coffee particles from clogging the basket holes, which encourages even extraction and prevents particles from clogging up and then bursting through, or the bottom of the puck structurally collapsing. (The basket holes are said to be about 300-500 microns in diameter, and while the largest gaps between the fibers of a paper filter run about 100 microns, because it's made of many layers, only particles of roughly 20 microns or smaller are said to be able to pass through.)
+2. Use a basket with a higher ratio of hole area to bottom area. (To reduce the pressure applied per basket hole.)
+3. Set a maximum speed limit on the machine's flow velocity during extraction, to prevent an excessive rise in extraction speed in the back half. (Only possible on the Decent.)
+
+The profile just above was extracted using method 3, capping the machine's maximum flow velocity at 2.5ml/s. (Right red circle.)
+
+In my experience, using a paper filter meant I pretty much never saw spritzers,
+and when cutting a filter was too much of a hassle, using method 3 was just as stable.
+
+And method 2 is what the newer Unifilter or WAFO baskets on the market these days give you,
+I recently bought a wafo spirit basket and have been extracting with it,
+and although I've only tried it a few times, it looks fairly stable at high flow velocities even without using a paper filter.
+
+
+(7) Dark Roast
+
+All the extractions above were with a light roast,
+with beans of medium-dark roast or darker, running a low-pressure preinfusion at 2 bar or below produces no coffee drip at all.
+The higher the roast level, the more strongly it seems to be affected by pressure rather than time,
+and in most cases extraction didn't start unless pressure reached 6-8 bar or higher. (In my setup.)
+
+But a puck at a higher roast level is just as hard to collapse as it is for water to escape from,
+so preinfusion doesn't look like it's really needed.
+
+
+[[IMG_1320.jpeg]]
+
+
+The above is an extraction with medium-dark roast beans, and even without running any separate preinfusion,
+you can see that the machine's flow velocity and the extraction's flow velocity stay nearly identical and stable from start to finish.
+
+This seems to be because the higher the roast level, the higher the viscosity, so it's structurally more stable,
+acting as a conduit rather than an elastic body.
+It also seems to help that overall extraction speed is much slower compared to a light roast.
+
+Still, if you're thinking "I really want to do preinfusion! Why not use the feature since it's there!" —
+then, taking into account that with a light roast the dwell-time difference between applying strong pressure and preinfusing at low pressure is about 3 seconds,
+(since the point of the dwell time after low-pressure preinfusion is when the puck is evenly wetted with water)
+it should work to give preinfusion for at least the flat-profile extraction's dwell time plus 3 seconds,
+and if the machine you're using is a Decent, since you can check resistance,
+setting the preinfusion time to roughly the midpoint between the flat profile's dwell time and the point of peak resistance
+will be more accurate.
+
+
+(8) Summary
+
+1. The long-known method of "extracting after low-pressure preinfusion up to the dwell time" looks like it has real value; it's presumed to have the effect of lowering the puck's resistance and making the early part of the extraction more stable.
+2. But since it increases the low-pressure portion of the extraction and tends to reduce crema, if the amount of crema matters to you, you need to adjust it appropriately.
+3. To make the back half of the extraction stable, a paper filter is (in terms of cost-effectiveness) the best.
+4. For coffee at medium-dark roast or darker, preinfusion doesn't look necessary in my own setting/dose/distribution, but if you want to do it anyway, please refer to item (7) above~
+5. A rough preinfusion-time guide for beginners who just started out:
+	1. The longer you go, the better it is in terms of stability in the front half of the extraction.
+	2. But the longer you go, the less crema comes out, so anyone who wants a thick, syrupy espresso would do better not to.
+	3. For those who want a moderate approach, around 5-6 seconds should be enough.
+
+
+
+
+(Bonus: On Shot Timing)
+
+For an extraction that uses preinfusion, measuring the brew time is often ambiguous.
+For dark roasts you're told to aim for 30-35 seconds, but with preinfusion it's common to go past 40 seconds.
+I was caught up in confusion and wandering about this myself in the past, so let me share what I found searching on home-barista.com.
+
+If you define brew time as the time since water first touches the coffee,
+then before the dwell time (the time the first drop of coffee falls), water is gradually soaking in from the top down,
+so on average, you can say water has been in contact for about half the dwell time.
+
+For example, if the dwell time is 6 seconds, then at the 6-second mark, the top of the puck has had water on it for 6 seconds,
+but the bottom of the puck has only just now had water touch it.
+Looking at the whole puck, we round it off as an average of 3 seconds of contact.
+
+So the method is to check both the dwell time and the end time when extracting,
+and set the brew time as the end time minus half the dwell time.
+(Example: dwell time 6 s, extraction end time 38 s -> 38-3=35 s)
+
+Setting the time this way is close to actually counting how long water has been in contact,
+so it becomes easy to gauge how much of a time effect the extraction had, whether the preinfusion was long or short.

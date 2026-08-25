@@ -1,0 +1,117 @@
+# Single Origin Espresso
+Published: April 4, 2023
+URL: https://blog.naver.com/klar201/223064586992
+
+se-main-container">
+In this post, I've put together my thoughts on light roast espresso, which I drink often.
+As in an earlier post I put up on Homebarista about turbo shots,
+light-roasted coffee is fundamentally strong in sourness, which often limits espresso extraction.
+As I lived my coffee life pondering "why is some coffee sour but still drinkable, while other coffee has piercing acidity that feels far too strong?", I came to know two factors that have a major influence, from experience.
+1. Factors
+(1) Intensity of the acidity
+Naturally, the intensity of the acidity comes first.
+When cupped, coffee whose flavor balance leans toward acidity is, naturally, quite likely to taste too strong when extracted as a high-concentration espresso.
+So coffees with yellow or orange cup notes — mainly Ethiopian washed, Geisha washed varieties — are difficult.
+If you want to extract a coffee with strong acidity as espresso and have it be drinkable, it needs to satisfy condition 2 below.
+(2) Body
+The body I mean here doesn't refer to a sense of concentration, but to the degree of nutty richness from fat.
+The more of that soft, milk-like fatty taste there is, the more it anchors the center on the taste side, acting as a kind of buffer, and neutralizing sharp tastes.
+Any home barista has probably had the experience once or twice of a badly extracted, bad-tasting espresso becoming drinkable once mixed into milk.
+You can also easily feel the role and importance of body in the fact that an Americano with 180ml of water added to the same amount of espresso, and a cappuccino with 150ml of milk added, feel similar in coffee flavor intensity.
+When cupped, if you feel a rich, soft, nutty fatty taste, that coffee is straight to espresso.
+Brewing coffee like this as filter coffee (percolation) actually kills the coffee's character.
+Coffees satisfying the two conditions above were mostly Central/South American in origin; African coffees weren't absent but were rare; there were more naturals than washed; and by variety, large-sized ones like Pacamara or SL-28 were the common case.
+(3) Physical limits
+This isn't a main factor but rather a condition that limits extraction,
+a condition on grind size: too coarse and you can't hold pressure, too fine and the probability of off-flavors rises.
+To extract while keeping the conditions of pressure, preinfusion, basket, etc. written below, the grind size needs to fall within a certain range,
+and either the grind needs to be made coarser because resistance forms too easily (this case is rare),
+or, when resistance doesn't build up at all and you'd need to grind finer, extraction is physically impossible.
+I think this differs by coffee and by roast degree, so you can only find out by trying,
+but it's certain that when a coffee is too far past its roast date, all the gas has escaped, resistance doesn't build, and extraction becomes difficult.
+(In this case you can compensate with tricks like updosing, nutation tamping, a rotary distributor, or swapping the basket, but quality drops.)
+2. Extraction
+In extraction too, the same holds: the key is harmonizing acidity and body appropriately, keeping clarity good so the cup notes show through, while at the same time anchoring the center with the soft fatty taste to strike a balance.
+clarity and body are opposing concepts; if you want both at high quality, there's no way besides changing the grinder.
+It's important to adjust variables within the limits your own equipment can produce, to strike a proper balance.
+(1) Pressure
+First, the number-one factor is pressure.
+If you've used an AeroPress, you'll have experienced that the harder you press to extract, the more the taste quality drops, and the more slowly and weakly you apply force, the better the quality gets.
+The lower the pressure you extract at, the more even the extraction, and for light roasts, where you need to bring out the coffee's own taste, a lower-pressure extraction pulls the coffee's compounds better.
+But as with all coffee variables, the right degree is always best, and extremes often fail.
+If the pressure is too low, body drops, while on the other hand the coffee's compounds increase, so in a high-concentration espresso you'll literally experience acidity like being stabbed with a knife.
+That said, if you set it too high, body is good but the extraction quality itself isn't, clarity drops, and the flavor weakens.
+This is a method suited to dark-roast extraction, where the bean's own flavor (excluding roast aroma) is almost nonexistent.
+In my experience, at 6 bar or above the flavor disappears and the taste resembles a dark roast, while at 4 bar or below there's almost no crema and the taste is sharp, making it uncomfortable to drink.
+My current pressure target is to start near 6 bar early in the extraction and end near 4 bar late (within the 4–6 bar range).
+The way to set pressure is simple: set the target to 6 bar, and adjust the grind size coarser so it falls within the range above.
+However, since pump capability differs machine to machine, the flow velocity may differ from my case.
+(2) Preinfusion
+Since most of the light flavor compounds are extracted early on, it can be efficient to give sufficient preinfusion and split the extraction: low pressure early, focused on flavor, and higher pressure later, focused on body and crema.
+But likewise, too much isn't good.
+If you apply too long a preinfusion, the puck's resistance inevitably weakens, so you have no choice but to grind finer, and as a result the extraction yield rises excessively, raising the probability of a sharp taste.
+In my case, depending on days off roast, I mostly extract with a profile where pressure ramps gradually over about 5–10 seconds.
+(3) Temperature
+Even a good flavor compound is likely to feel unpleasant if there's too much of it.
+Temperature determines the activity of gas molecules, so it's especially important: too high and there will be too many flavor compounds, too low and there will be too few.
+Since 85°C and 93°C don't differ that much in terms of yield, I consider drinking temperature important and prefer to extract at a low temperature around 86°C and drink right away without resting.
+For filter coffee, if you extracted at 93°C, waiting about 3–4 minutes before drinking is fine.
+But espresso... well, it's a drink whose purpose is a small volume you drink quickly and go, so I doubt it's wise to wait over a minute for a drink you'd finish in 10 seconds at most.
+Since I decide temperature from the standpoint of flavor, I vary the temperature depending on the time elapsed since the roast date.
+Usually from 5 to 10 days off roast I run 86°C, from 10 days to 3 weeks 90°C, and beyond that 93°C or higher, it seems.
+There isn't a clear-cut criterion by interval — if the coffee I drink today has noticeably less flavor than yesterday's, I raise the temperature by 3–4°C.
+(4) Dose
+There's someone who ran an experiment comparing, while maintaining an appropriately sized headspace as dose changes — that is, a small basket for a small dose, a large basket for a large dose — which one gives better quality in terms of extraction.
+It was a post from Decent Diaspora; they released data they'd collected over several years,
+and looked at how yield changed depending on the equipment and basket used,
+and put simply, the conclusion was that the bigger the basket size and the larger the dose, the higher the yield.
+Everything else was held equal except puck height,
+(with VST-type baskets the hole size differs by basket size, so even when you swap baskets you end up extracting at a similar grind size.)
+Thinking about why a taller coffee puck leads to more efficient extraction,
+one can think it's because the coffee particles themselves act as a filter, lowering the chance that fines migrate downward and clog the bottom of the puck or the basket holes, and inducing a more even extraction.
+(I believe there was related content in Jonathan Gagne's book.)
+I currently extract at a fixed 20g.
+I'll explain the basket in the next item.
+(5) Basket
+Since you need a certain amount of yield, I recommend VST-type baskets over IMS-type center-concentrated baskets.
+Baskets that yield even better, like Unifilter or WAFO Spirit, have an aspect of being too much.
+At a 1:2 brew ratio the taste is too sharp; if you open up the grind coarser you can't hit 4 bar or above; and even lowering the brew ratio to 1:1, the yield doesn't drop as much as you'd think, and it becomes an undrinkable beverage because of the intense concentration.
+Instead, non-espresso, bypass, diluted drinks may have a strength here.
+If I run another experiment, I'll try a light-roast flat white using a Unibasket.
+And I strongly recommend using a paper filter at the bottom of the basket.
+Without a filter, due to the fast extraction speed you're highly likely to see spritzers (water jetting through the basket holes), and there's a mild effect of improving clarity, so it has many advantages.
+(6) Grind size
+The grind size range condition is exactly as described in the factors section above.
+Adjust it based on the pressure range (4–6 bar).
+On my equipment, brew speed mostly comes out at 4ml/s or above.
+In terms of brew time, I'd say it's around 15 seconds including preinfusion.
+(7) Beverage weight
+This is about the brew ratio; the dose, as mentioned before, is fixed at 20g,
+and I use 1:3 as the default, but if there's bitterness or an unpleasant taste, I reduce the beverage weight by 5g at a time.
+The higher the beverage weight, the lower the concentration and the easier it will be to drink; the lower it is, the higher the concentration and the more likely it is to be harsh.
+Since this is determined by the coffee, the roast, the grinder, and the quality of the extraction itself,
+if you've tried your best but reducing the beverage weight doesn't make the bitterness go away and the taste just gets stronger to the point of being undrinkable, you need to compromise appropriately.
+For a typical higher-roast-level espresso extraction, you'd usually adjust the grind size first if there's an off-taste, but for light roast, since the grind size range is constrained by the need to meet the pressure condition, you can think of it as mainly adjusting the degree of extraction through the beverage weight.
+With my equipment (described at the end), going down to 1:2 felt like too high a concentration, and mostly around 1:2.2 was drinkable without negative tastes.
+1:3 has an aspect of being more drinkable since the taste intensity isn't strong, but in most cases a slight bitterness lingered.
+3. When all conditions are satisfied..
+When you do an extraction that satisfies all the conditions,
+(since sensory evaluation is subjective, a reference point is needed — I'll explain by comparing against a light roast coffee extracted with a 6 bar flat profile as the baseline.)
+First, the cup notes are noticeably distinct.
+Instead of the previous blurry, muffled feeling, a relatively clear and bright flavor appears.
+Of course, because the volume is small, it's hard to feel the cup notes change over time the way you can with filter coffee, but you can definitely feel the main cup note that hits first.
+Also, thanks to the nutty fatty taste, the balanced acidity feels pleasant, and with little bitterness it tastes sweet.
+If done with a grinder more favorable to extraction, it seems like it would become a sweet flavor bomb with not a single off-taste.
+4. Wrapping up
+It should be kept in mind that this post is based on using my own equipment,
+and the detailed numbers or contents of the condition ranges can change depending on each person's equipment.
+That said, my own equipment isn't anything extraordinary either,
+so with a grinder above a certain level and a stable machine capable of adjusting pressure and preinfusion, you should be able to extract this just fine.
+(Equipment used)
+Machine: Decent XL
+Grinder: Lagom P64, SSP cast burr
+Basket:  VST 20g
+Paper filter: Kalita round filter 53mm
+Puck prep: grind into a dosing cup, shake, then load into the basket, WDT tool, tamp with the Force Tamper
+Water: ordinary tap water filtered near Sinjung-dong, Bucheon
+<div id="

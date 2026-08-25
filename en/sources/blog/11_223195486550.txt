@@ -1,0 +1,49 @@
+# Espresso Series I. Preinfusion
+Published: August 28, 2023
+URL: https://blog.naver.com/klar201/223195486550
+
+se-main-container">
+Anyone interested in coffee extraction is bound to be very curious about what happens inside the group head during extraction, but unless you use a sensor inside the group head (like Decent or a Belkafilter), you can't see it with your eyes, and it's not easy to get various kinds of information.
+So even people who call themselves coffee experts are reluctant to explain things like how preinfusion proceeds, or how crema is formed this way and that.
+Because it can't be proven.
+Even using a transparent portafilter or basket, the information you can get about how the particles change is limited, because they are so small.
+But I'm no expert, and I have no authority that would collapse if the theory I state turns out to be wrong, so I want to write down, based on past experience and grounded as much as possible in scientific thinking, what I've thought about and studied on preinfusion, Bernoulli's principle, and crema — the core of espresso extraction.
+When you press the extraction button and water starts pouring out of the screen, the puck gets wetted with water and the group head starts filling with water; the process of water wetting the coffee, from when the water first comes out until extraction proceeds and coffee starts dripping into the cup, is preinfusion.
+The first thing to know is that the puck gets wetted through capillary action, mainly influenced by particle size, and that even after it's wetted, because the overall flow rate is very low due to the coffee's viscosity and the puck's resistance, a certain amount of pressure must be applied before flow is generated and extraction begins.
+In other words, water dripping from the screen doesn't soak into the entire puck at once — it wets the puck sequentially from the top down, and in most ordinary extraction situations this takes at least 5 to 7 seconds.
+Also, even after everything is wetted following the 5 to 7 seconds, a certain amount of pressure must be applied before water passes through the puck and extraction begins; if only weak pressure is maintained, the puck just holds the water and no coffee drips out.
+https://youtu.be/7A-L00q5a1o?t=473
+(You can see the wetting process for yourself by watching the video above.)
+(The machine setting in the video above is a few seconds of 4bar preinfusion followed by 9bar extraction; since the pressure gauge shows 4 bar the moment the button is pressed, we can tell that the gauge shows the pressure near the pump, and apparently this was set up through a timer and OPV modification.)
+(So the video above is not a typical extraction situation, and given that it's a vibration pump, you have to keep in mind that the flow rate during the early preinfusion section (4bar) is set to a very low flow rate of around 2-3mlps.)
+The reason this preinfusion matters is that whether the amount of change in pressure — as it's increased by filling with water — is large or small determines the gaps between particles and determines the puck's resistance, which has an enormous effect on the extraction yield.
+Let's look at it step by step.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjZfNzQg/MDAxNjkzMDIyNjQ1OTY4.yR0dhBM7UKAwRRciQpNxlYxEbJHv7ssOtGQirk31-oEg.0KAOmu33k_Wt0OPduvRaQ1NibTmcj8WR9D1C5iTQW5wg.PNG.klar201/SE-ccd3f948-0b29-4c65-92d2-51ff60468cb3.png?type=w580]
+This is around the middle of the preinfusion process.
+1 is the headspace, 2 is the puck wetted with water, and 3 is the unwetted puck.
+As mentioned above, since this video's setting uses a very low flow rate, even though infusion has progressed about halfway, the headspace still hasn't filled up completely.
+For convenience, and keeping in mind that this isn't the typical case, I'll explain by assuming a situation where headspace 1 fills up completely with water and pressure increases.
+When zone 1 fills up and pressure increases, the puck gets pressed downward by an amount equal to that increased pressure.
+Zone 2, which is already filled with water, transmits the force without much change even when pressure acts on it from above. (Water is barely compressible.)
+But zone 3, where water hasn't reached yet and air still fills the space between the coffee particles, is affected by the pressure acting from above, gets pressed downward, and the gaps between particles narrow, with the air that was filling them escaping out through the bottom of the basket by that same amount.
+In short, to summarize: as the headspace fills up, pressure gradually increases, and at the same time, as infusing proceeds, the puck gets compressed; as a result, below the infusing line at the point when the headspace is full (the boundary between the wetted part and the unwetted part, between 2 and 3), the gaps between particles progressively narrow.
+Therefore, the difference in resistance is considerable between a puck whose preinfusion flow rate was 2-3mlps and one where it was 6mlps, and since the particle size is the same but the gaps between them differ, the yield also ends up differing greatly.
+If the pressure pressing down through the headspace water is 9bar, its magnitude is enormous — about 10 times greater than the force of ordinary tamping.
+In other words, this means the degree to which it affects extraction is 10 times greater than what you'd get by adjusting tamping strength, so you can really feel the importance of preinfusion.
+(Of course, the compression caused by the water only starts after the headspace fills up, and the pressure is also applied while increasing gradually, so it's not actually a full 10 times.)
+The particle size distribution (PSD) of the coffee also has an important effect on this process: as infusing proceeds, pressure acts on the wetted side above the infusing line, moving fines toward the bottom.
+This process appears to be heavily influenced by particle uniformity: the more similar the size of the larger particles, the more easily the fines will move, and the more irregular the size of the larger particles, the harder they'll be to move, making it easier for resistance to form.
+So even if two coffee pucks have similar resistance, if their particle distributions differ, the side with uniform large particles will have a greater quantity of fines to compensate for the lower resistance that forms, while conversely, the side with irregular large particles will have a smaller quantity of fines, since resistance forms easily there.
+(See Jonathan Gagne's blog)
+During extraction, the uniform side will tend to have resistance increase quickly and then decrease quickly, while the irregular side will tend to have resistance increase slowly and then hold that resistance.
+(In other words, it's a difference in whether the movement of fines happens easily or not.)
+If you've understood the above well, you'll understand that the very bottom of the puck, where it meets the basket floor, gets pressed with the greatest pressure before infusing, giving it a density like a very tightly packed wall.
+I think this wall acts like a sieve and is involved in the formation and texture of crema; for now, let's assume that the thicker the wall, the greater the amount of crema and the better the texture, and I'll gradually explain the mechanism in the next post, on Bernoulli's principle and crema.
+Also, the thicker this wall — that is, the more preinfusion was carried out with a high flow rate and a large change in pressure, and the more the coffee was ground with a grinder of irregular uniformity — the lower the vertical uniformity of extraction becomes, and so the yield goes down.
+So, depending on the thickness of the wall, it splits into high yield and less crema (thin-wall side, gentle preinfusion, uniform coffee particles) versus low yield and more crema (thick-wall side, fast preinfusion, non-uniform coffee particles).
+This yield and crema are inversely related to each other, so raising one requires sacrificing the other. (Almost every element of coffee is like this.)
+The barista's role, I'd say, is to know the characteristics and tendencies of their own machine (water debit) and grinder (burr geometry, uniformity, and unimodality), and to adjust the flow rate and pressure changes during preinfusion accordingly, appropriately controlling yield and texture.
+If your machine has a water debit of 8-10mlps or more like an LM, and your grinder produces a lot of fines and has poor uniformity like the Nitsche Zero or Rover, then running preinfusion gently will help you avoid the risk of under-extraction,
+whereas if the water debit is 6ml/s or less and the grinder has good uniformity in the EK vein, it will be good to run preinfusion as sharply and briefly as possible, filling in the body that might otherwise easily run short, helping to strike a balance between strong flavor and sweetness.
+(This kind of equipment gives a high yield anyway.)
+<div id="

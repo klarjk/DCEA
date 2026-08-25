@@ -1,0 +1,32 @@
+# Flavor Change Driven by Flow Velocity - Preview
+Published: September 8, 2023
+URL: https://blog.naver.com/klar201/223205796850
+
+se-main-container">
+The next series will write up what I found out about how perceived sensory characteristics change with flow velocity.
+I believe nothing in the world is absolute.
+Even that sun in the sky has a lifespan, and even time and space act relatively depending on gravity.
+Meaning nothing stays unchanged and lasts forever.
+(My apologies to those who believe in God.)
+I think the same is true for coffee.
+The mainstream research trend in the coffee world is Even Extraction — the idea that if the extraction is perfectly even, you get delicious coffee even at higher concentration and yield.
+I think a perfectly even extraction can't exist, and that given the structure of human senses, there's an appropriate range of concentration and yield that comes across as pleasant.
+That said, the better the texture, the more a smooth quality can reduce harshness and let it tolerate a higher concentration and yield.
+(If you apply an appropriate Americano concentration setting straight to a milk drink, it usually tastes flat and washed-out.
+Conversely, if you apply an appropriate milk-drink setting to an Americano, it usually tastes too strong.)
+(I think the reason cupping usually feels less harsh than filter brewing and tastes good even at a higher yield is, along with the above reason, that not much flavor compound is extracted.)
+So when a situation we normally call under-extraction (sour or greenish) tastes harsh and unpleasant,
+I think it's not because something was extracted too little, but a phenomenon that appears because flavor compounds were extracted excessively.
+If compounds had been extracted too little, the normal result should be a sensory note that's flat and washed-out or somehow empty, not a harsh one.
+Immersion has no flow, so extraction of these flavor compounds is lower,
+while with percolation, the faster the flow, the more the extraction of light flavor compounds increases,
+and once the concentration rises past a certain range, it starts to feel negative.
+Because these flavor compounds don't register on a refractometer and are volatile,
+they're not easy to experiment on or prove with scientific thinking.
+I was lucky enough to have been able to run experimental brews using a Decent machine, mechanically controlling the flow rate.
+(To rule out the influence of other factors, I used a grind size around that of filter coffee, minimizing the influence of pressure and grind size as much as possible.)
+Accordingly, briefly organizing what I found out empirically,
+the first post will lay out a hypothesis citing data from the Brewing Control Chart,
+the second will be an actual brewing log examining whether the first post's content holds up,
+and the third will be a post organizing the process of actually applying it to filter brewing and espresso.
+<div id="

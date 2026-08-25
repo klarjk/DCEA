@@ -1,0 +1,64 @@
+# Controlling Flavor Change via Flow Velocity - Practice II
+Published: March 23, 2024
+URL: https://blog.naver.com/klar201/223392730532
+
+se-main-container">
+It took a long time for the next installment to come out.
+Honestly, that period was also spent completing my own method and experimenting with it,
+and once I felt there wouldn't be any more progress on the theoretical side of coffee extraction, my interest dropped sharply and I didn't much feel like writing.
+It's also been a while, so I don't remember the earlier installments well.
+Skimming back over it, it looks like I was examining how flavor changes by variable,
+so rather than rambling on, I think I'll just write this one up as 'in my experience, changing this makes the flavor turn out like this!'
+Please excuse it if it doesn't flow smoothly from the previous content.
+Among the various variables affecting flavor, I'll organize the fundamental ones first, then the ones that respond relatively well to adjustment, in that order.
+(1) Roasting
+The lower the roast level, the more flavor there is, and the higher, the less. Naturally.
+The more flavor there is, the stronger the stimulus, so balance is achieved at a low TDS, and when there's less, conversely you have to match a high TDS to extract a cup with excellent texture instead of flavor.
+That's why Nordic roasts are generally known to be extracted tea-like,
+and if you measure the TDS of a well-extracted dark roast cup, it's much higher than a light roast.
+(2) Grinder
+Generally, flat burr grinders, and grinders/burrs known to be unimodal, tend to have stronger flavor,
+while conical and hand-grinder-type grinders have weaker flavor expression and an advantage in texture.
+My grinder is mainly the P64 SSP LS, and for hand grinders I use the Comandante, Kinu (Classic, Brew burr), K-Ultra, and X-Lite,
+but regardless of type, hand grinders all produce much weaker flavor intensity when extracted compared to the P64, so with a light roast filter coffee it's not easy to get the same satisfaction as the P64 with ordinary recipe adjustments.
+(3) Dose
+The larger the dose, the stronger the flavor, and the smaller, the weaker.
+The dose referred to here is the dose when the brew ratio is all the same.
+That is, if you extract 15g:240g, 18g:288g, and 20g:320g all under the same conditions, only varying grind size, to reach the same TDS,
+15g has the least flavor and 20g has the most.
+Well, since coffee and water increase proportionally, if you think about it purely in terms of concentration, the result should theoretically be similar,
+but in practice, that's how it turns out.
+It could be that the extraction flow differs depending on whether the dose is large or small,
+or it could be that the amount of coffee itself, regardless of the amount of water, affects flavor intensity.
+(4) Degassing
+Without much need for explanation, coffee that's less time off roast has more flavor,
+and coffee that's more time off roast has weaker flavor.
+(5) Temperature
+While the previous four factors mainly affect only the flavor itself, from the fifth one onward these also affect the actually measured concentration, i.e., TDS.
+So because the previous four change the coffee's flavor itself,
+if one of those variables changes, it's hard to maintain the same cup through recipe adjustment alone,
+whereas conversely the following factors are things you can fine-tune while adjusting TDS — parts the barista can actively engage with.
+As temperature rises, flavor intensity and TDS increase together,
+and as it falls, they conversely decrease.
+(6) Flow rate
+Assuming TDS is held constant,
+the higher the flow rate, i.e., the shorter the brew time, the greater the flavor intensity,
+and the lower the flow rate, i.e., the longer the brew time, the lower the flavor intensity.
+In filter extraction, flow rate is proportional to the water level in the dripper,
+so the fewer the number of pours, the higher the flow rate, and conversely the more pours it's split into, the lower the flow rate.
+Temperature also has a slight effect on flow rate. (The higher the temperature, the slightly higher the flow rate.)
+(7) Brew ratio
+The lower the brew ratio (e.g., 1:16~17), i.e., the more water, the weaker the flavor,
+and the higher it is (e.g., 1:14~1:15), the stronger the flavor.
+Even a 10ml difference in water weight is enough to feel a noticeable difference,
+so a scale isn't optional — it's essential.
+But this is the case when grind size is held constant,
+and if you compare results with TDS held the same, i.e., raising the brew ratio (pour less water) but loosening the grind slightly to keep concentration the same, within a not-too-large range there's less flavor difference than you'd expect.
+(8) Grind size
+I mainly use grind size, unrelated to flavor, to hit the target TDS.
+However, if it's too fine, negative sensory notes appear, so there's a limit to how far you can go finer.
+I've written up the variables briefly,
+but the core content will probably be covered in the next installment, actual recipe adjustment.
+I think the next one will probably be the final installment.
+Wishing you an enjoyable coffee life.
+<div id="

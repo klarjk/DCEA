@@ -1,0 +1,113 @@
+# A Beginner's Guide to Variables (rev. 2023-07-30)
+Published: March 9, 2023
+URL: https://blog.naver.com/klar201/223039116798
+
+se-main-container">
+In this post, assuming all other variables are held fixed,
+I'll explain, from my own point of view, the changes that appear when a specific variable is changed,
+inferring from what I've experienced and gone through, and doing my best to base it on objective, scientific thinking.
+1. Concentration (TDS)
+Determines taste intensity, flavor intensity.
+The higher it is, the more it increases the intensity and duration of flavors that show up as acidity-carrying flavor compounds (berry, green, citrus, etc.).
+It also increases negative impressions like fermented, sourness, bitterness, astringency, harshness.
+2. Extraction yield (EY)
+The higher it is, the darker the tone of the acidity gets; the lower it is, the brighter.
+The higher it is, sweetness increases, but past a certain point it turns into a bitter and burnt taste.
+Certain coffees show a floral finish as yield increases.
+It also increases the likelihood of producing astringency.
+3. Brew temperature
+The higher the temperature, the more concentration and yield increase; the lower, the more they decrease.
+The higher it is, early in the extraction the amount of gas released increases, so resistance rises and brew speed decreases, while late in the extraction brew speed instead increases. (Opposite if lower.)
+4. Drinking temperature
+The higher the temperature, the more flavor intensity and duration increase.
+Since it also increases negative flavors, if the intensity is too strong or the coffee's own first flavor isn't good, it may be better to lower the temperature to bring on the change in notes faster.
+5. Dose
+The more there is, the more concentration increases and yield decreases. (Opposite if less.)
+6. Beverage weight
+The more there is, the more concentration decreases and yield increases. (Opposite if less.)
+7. Grind size
+The finer it is, the faster concentration and yield rise as extraction proceeds; the coarser, the slower they rise.
+(Therefore, final concentration and yield go up the finer it is, and down the coarser it is.)
+Once it gets finer than a certain limit, the finer particles clump together (espresso), or gather at the bottom of the coffee bed and increase resistance (filter), or the fines quantity increases and clogs the filter, obstructing flow, harming extraction uniformity, and raising the likelihood of producing negative tastes.
+The finer it is, the more the coffee bed's resistance increases, increasing brew time. (Opposite if coarser.)
+8. Brew time
+The longer it is, the more extraction keeps proceeding by immersion, so concentration and yield go up.
+When comparing two extractions with the same concentration and yield but different brew times, the longer one has a higher proportion of the extraction happening by immersion.
+The more the immersion proportion of the extraction increases, the higher body gets, and the lower clarity gets.
+9. Pressure
+The higher the pressure, the more water-insoluble compounds get extracted, so body rises and clarity drops.
+The higher the pressure, the more unstable the coffee bed becomes, lowering extraction uniformity.
+For espresso, the higher the pressure, and the longer the section held at high pressure, the more crema there is.
+10. Water level (filter coffee)
+The fewer the number of pours, the more you pour at once, and the more you pour in a short time, the higher the water level rises; the higher the water level, the more pressure from the weight of the water increases, raising body and lowering clarity.
+Also, the higher the water level, the more water bypasses, decreasing concentration and yield.
+11. Brew speed
+The faster it is, the more clarity increases and body decreases.
+(Fast) - (Slow)
+dry, astringent - greenish, dried fruit - good flavor - sweet - sweet and dark, tone-downed, dull flavor
+12. Basket
+The higher the ratio of total hole area to the whole basket bottom's area, the less resistance the basket itself has, and the faster the brew speed. (Opposite if lower.)
+The more the basket's hole distribution is concentrated toward the center, the more center-biased extraction occurs in the middle.
+The larger the basket, the taller the coffee bed, and since the proportion of even extraction increases, yield increases. (Decreases the smaller it is.) (This applies only to baskets like VST or La Marzocco that vary hole size with basket size to keep resistance similar.)
+※Center-biased extraction
+Since center-biased extraction is a form of uneven extraction, yield decreases; and when the uneven extraction is centered, the pressure applied to the top of the puck spreads evenly in a circle, so it's structurally stabilized and consistency actually improves, while the edge of the puck becomes compacted and acts like a wall, which functions the same as reducing the basket's inner diameter and increases the resistance of the whole puck.
+(When the puck's resistance increases, brew speed slows and brew time lengthens.)
+13. Headspace
+The larger the headspace, the more water there is whose pressure needs to be raised, so it takes longer to reach maximum pressure.
+Since this has the effect of ramping pressure up slowly, it can function similarly to preinfusion.
+In light-roast extraction, where clarity matters more than body, a larger headspace has an advantageous aspect.
+(However, if the headspace is large, the puck thickness gets thinner and the grind size finer, which can make extraction unstable, so it needs to be adjusted within a reasonable range.)
+Conversely, the smaller the headspace, the more sharply pressure rises, which has a more advantageous aspect for extractions like dark roast where body and the amount of crema matter.
+(See item 9, pressure, above.)
+14. Preinfusion
+The longer you hold the pre-wetting time, the better extraction uniformity gets, and consistency can be improved.
+It also lowers the puck's resistance, making brew speed faster in the later part.
+And the longer the time, the more of the extraction happens in the low-pressure section, so the amount of crema decreases.
+Considering this effect on brew speed and pressure, preinfusion has an advantageous aspect for light-roast extraction where clarity matters more than body.
+15. Tamping
+Unless there's a specific purpose, it's good to always tamp consistently.
+The more strongly you tamp, the more the puck's resistance increases, slowing brew speed and lengthening brew time.
+This difference grows the faster pressure is ramped up, and the effect becomes minimal the longer preinfusion is given and the more slowly pressure is ramped.
+Both tamping with a curved tamper and nutation tamping increase resistance only at the edge of the puck, inducing center-biased extraction, and this raises the resistance of the whole puck, slowing brew speed and lengthening brew time. (See item 12, basket, center-biased extraction, above.)
+The more the tamper's diameter differs from the basket's, the lower the resistance at the puck's edge; when ramping pressure quickly this has minimal effect since the puck compresses downward fast, but in an extraction that gives a long preinfusion, the degree of edge-biased extraction can grow larger.
+16. Distribution
+Distribution serves three main purposes: breaking up clumped coffee, distributing the grind-size distribution of the particles evenly, and making the coffee bed's height uniform.
+A rotary distributor, due to centrifugal force as it spins, receives force toward the edge, so the longer it's extended and spun, the more resistance increases only at the puck's edge, inducing center-biased extraction; this has the effect of decreasing yield, increasing consistency, decreasing brew speed, and increasing brew time. (See item 12, basket, center-biased extraction, above.)
+If you tap after tamping, or give the portafilter a strong shock while locking it into the group head, the chance of a gap forming between the puck and the basket wall rises, and this can raise the likelihood of edge-biased extraction.
+The WDT tool plays a role in breaking up clumped coffee, can also be used to make the coffee bed's height uniform, and can also function to distribute the grind-size distribution evenly.
+The most effective thing for evening out the grind-size distribution is shaking with a dosing cup or shaker to mix it thoroughly.
+With a grinder that produces an even grind-size distribution this might not be necessary, but for a grinder like a single-dosing grinder where fines come out mostly at the end of grinding, or where the grind size of the coffee coming out of the left and right of the chute varies, shaking may be good to do.
+Making the coffee bed's height uniform can be done directly with fingers, or using a WDT tool or a rotary distributor pulled out shallow, or it can be done by tapping against the bottom.
+The more you tap and shock the coffee bed, the more the chance rises that fine particles move down to the bottom, so it can affect extraction. (It's good to do it a minimal number of times.)
+17. Dripper
+Brew speed varies depending on the size of the bottom hole and whether ribs are present.
+Depending on the dripper's material, the degree of heat absorption differs, which affects brew temperature.
+The faster a dripper's brew speed, the more it lowers body and raises clarity. (Opposite if slower.)
+A cone-shape dripper has more bypass water, while a flat bottom dripper has less bypass.
+18. Paper filter
+The faster a paper filter drains water, the faster the brew speed, which lowers body and raises clarity.
+The thicker the paper filter, the more fines it can hold back, which can lower the probability of clogging.
+Unbleached (brown) filters tend to have more uniform hole sizes than bleached white filters.
+Rinsing has almost no sensory significance. In the case of extracting with coffee rather than just steeping the filter alone in water, it's hard to tell the difference with human senses.
+Instead, there are cases where it's done to seat the filter evenly against the dripper.
+(There's no need for it with filters that seat evenly on their own without extra effort, or with small 1-cup filters.)
+19. Water stream
+The thinner the water stream, the more you can reduce the shock given to the coffee bed, the longer brew time gets, and the lower you can keep the water level.
+Conversely, a thick water stream shocks the coffee bed, giving an agitation effect, shortens brew time, and raises the water level.
+The higher the pour height relative to the coffee bed height, the stronger the shock given to the coffee bed, but once it rises above a certain height, the water penetrates as if scattered together with air, and the shock it delivers actually becomes smaller.
+20. Agitation
+Stirring with a spoon, holding and spinning the dripper, or pouring water thicker and rougher shocks the coffee bed, and this can raise yield while at the same time moving fines down to the bottom of the coffee bed, increasing resistance and becoming a cause of slower brew speed.
+Swirling, holding and spinning the dripper, has the effect of detaching coffee particles stuck to the wall above the coffee bed and flattening the coffee bed. (It increases consistency.)
+But swirling makes fines that were stuck to the wall come loose and sink downward, so it can also become a cause of increased resistance late in the extraction and slower brew speed.
+21. Pre-wet
+The longer the pre-wet, the lower the coffee bed's resistance gets, and the faster the brew speed.
+The higher the temperature, the greater the pre-wet's effect.
+Blooming, which rises up like a flower, is a phenomenon where gas released from deep down gathers at a spot dug out by the water stream and erupts upward together with water and fines.
+It has the effect of pulling fines from deep down up to the top of the coffee bed.
+In hand-drip where the water level doesn't rise above the coffee bed, blooming keeps happening, so the chance of fines moving downward is lower, and the difference in brew speed between the early and late extraction isn't large. (There's almost no clogging either.)
+The more pre-wet water weight there is, the slower the overall brew time; the less, the faster.
+22. Bypass
+The more water bypasses, the lower concentration and yield get. (Opposite if less.)
+The more bypass increases, the higher the likelihood of edge-biased extraction at the coffee bed's edge.
+The higher the resistance at the bottom of the coffee bed, the more water bypasses.
+<div id="

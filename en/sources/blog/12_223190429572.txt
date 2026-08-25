@@ -1,0 +1,80 @@
+# Extractamundo Dos! Profile Analysis
+Published: August 22, 2023
+URL: https://blog.naver.com/klar201/223190429572
+
+se-main-container">
+Extractamundo Dos! is the name of a Decent extraction profile.
+It's known to have been made by a user called Joe D.; I only knew the name from having seen it in the patch notes, but after learning from Scott Rao's recent blog (https://www.scottrao.com/blog/2023/7/24/my-two-week-espresso-education-on-the-road) that it's used a lot by users overseas, I've started using that profile in earnest and have been extracting with it recently.
+[image: https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5957d4148419c29314283239%2F595eba3b57bf429e28c287a0%2F64be4dde4ffd86330d528083%2F1691934646841%2FIMG_2544.jpg%3Fformat%3D1500w%22&type=ff500_300]
+My two-week espresso education on the road — Scott Rao
+I recently spent two weeks with John and Bugs from Decent Espresso, doing demonstrations of the DE1 as well as my forthcoming Filter 3.0 basket, throughout the Netherlands, Germany, Switzerland, and Austria. We did sixteen demonstrations in twelve cities, and it was a blast. Our hosts were incredibl
+www.scottrao.com
+Scott Rao's blog says that for light-roast espresso extraction, the key points are a fast flow velocity and a brew ratio of around 1:3 to 1:5 with a large amount of water, that this traces back to the Allonge shot made famous at the café Rao opened in the US in 2008, and that recently turbo shots, blooming espresso, and the Extractamundo Dos profile carry on that lineage.
+(Actually, in the case of turbo shots, I think the theoretical core isn't so much a fast flow velocity and a low brew ratio, but rather an approach from the standpoint of efficient extraction, with the fast flow velocity and brew ratio being merely a result — so I think it's a bit arrogant to lump them all together and claim they belong to Rao's own Allonge family.)
+(1) Experiences with turbo shots
+Until now, when extracting light-roast espresso, I had mainly been using a turbo shot variant profile (coarser grind, fast brew speed, 4-6bar pressure, 1:2.2 brew ratio).
+Since my grinder is clarity-focused and tends to give a high yield, extracting all the way to 1:3 almost always brought out off-flavors, so I couldn't pull it any longer. (Grinding coarser than that made the pressure too low and ruined the texture.)
+Another thing was that the optimal grind size range was relatively narrow, so even though I ground the frozen beans right before extracting, it was hard to keep the extraction quality consistent day to day.
+Also, even a slight grind size adjustment caused a large swing in peak pressure, so it wasn't easy to keep the pressure as intended on every extraction.
+(2) Profile analysis
+Let me briefly explain the Extractamundo Dos! profile.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjJfMyAg/MDAxNjkyNjcxMzQ0MzU3.-T3vFwQlkGUZAj3ukpwvl2Htmg6C7Hlktd0JvAEZTnAg.v5PKPSgHvAWfsNoZnFV6rcBM06IZsTkDDSnWOwNO4TIg.PNG.klar201/SE-bf01d75a-9ba4-4d17-86a9-156508cacd39.png?type=w580]
+Extractamundo Dos!
+① Preinfusion
+Targets high pressure (8bar). As soon as extraction starts, it runs infusion with a high flow rate driven by high power.
+According to the profile author's explanation, this profile is meant for burrs in the MP burr lineage that give a good yield, and this seems to be why preinfusion isn't set to be soft — which also matches my own experience.
+(In my own case too, I had been applying a peak flow velocity of 6mlps for preinfusion.)
+As of August 22, 2023, looking at author Joe D.'s visualizer (a site that stores Decent extraction records), the preinfusion section has been switched from a pressure target to a flow rate target (peak flow rate 8mlps). Decent drives the pump harder, more like wringing it out, when on a flow rate target than on a pressure target, and this is probably being used to compress the puck more forcefully in a short time and build up higher resistance.
+(In Korea, due to mains frequency issues, 6mlps is the maximum.)
+② Dynamic blooming
+It begins when, during the preceding preinfusion stage, pressure reaches 4.5bar.
+The pump stops operating to hold the blooming, but instead of holding it for a fixed time (e.g., 30 seconds) as with typical filter or espresso, it's held only briefly (1-2 seconds) until pressure gradually drops to 2.2bar.
+With a typical 30-second blooming espresso profile, pressure drops too far over those 30 seconds, and during that time there's a high chance that the gaps between particles, which had been packed tight during preinfusion, open back up again due to back pressure.
+This does raise the yield, but because it makes the puck's resistance drop a great deal, it suits a body-focused grinder like the Nitsche Zero and a machine with a high water debit like an LM; if you apply a 30-second bloom with a uniform grinder and a machine with low water debit, the yield will likely come out too high, you'll have to grind very fine, and there's a good chance the resulting shot will have poor sensory notes too.
+That said, if you don't apply any blooming at all, you can expect the drawbacks of turbo shots described above to still be present.
+If I try to guess the causes behind turbo shots having a narrow sweet spot and showing harsh flavor,
+uneven extraction
+excessively fast brew speed
+those would be the causes, and you can see that uneven extraction is taking place in the graph below.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjJfMjk1/MDAxNjkyNjc4NDYzMjIy.-WXFbGggrTg-RFwK8U3NKGOwFojB4IQkftMFFaeQE84g.JiD3WKJG4_0z1e8AF3lhFj1M1ttjw86k9pOCYj21mXEg.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-08-22_%EC%98%A4%ED%9B%84_1.26.44.png?type=w580]
+A typical (flow-profiled, 2.5mlps) turbo shot graph
+Looking at the graph, the dwell time is 6 seconds (left circle), while resistance (the yellow line) peaks (right circle) at around 9.5 seconds.
+Given that resistance gradually increases as the puck gets wetted with water or compressed by pressure, and gradually dissipates as extraction proceeds, the point at which resistance hits its peak can be seen as the moment when the puck is maximally wetted with water under the pressure being applied at that time.
+In other words, extraction proceeded unevenly during the roughly 3.5 seconds between the left and right circles, and this will continue to affect things all the way through the later part of the extraction.
+What acts to minimize this is soft preinfusion and blooming, but as mentioned earlier, applying them excessively can backfire badly depending on the equipment.
+So I'd been just using it without much thought all along, figuring there was no way around it, but if you apply blooming the way this dynamic blooming does — briefly, for 1-2 seconds, without letting pressure drop too far — you can expect that it will preserve, as much as possible, the resistance that built up from particles being packed during the preceding preinfusion stage, and also that having pressure briefly decrease and then increase again will reduce the piercing force and buy time for the puck to get wetted.
+(In practice, the grind size for a well-pulled turbo shot and the grind size for a dynamic blooming profile extraction are similar to each other, without much difference.)
+I also suspect there's a small but real effect of increasing consistency: since the blooming duration is determined based on pressure, it's applied longer when the puck's resistance — determined by roast date or grind size — is high (because pressure drops more slowly when resistance is large), and shorter when it's low, which is expected to reduce quality differences caused by variation in resistance.
+③ Extraction
+One clever idea is applied to the main extraction process as well: limiting excessive increases in brew speed, and using a weak-limiter approach to do this.
+The usual advantage of a fast brew speed is that the flavor becomes clearer (which is why it favors light-roast extraction), but if it's too excessive, you mostly get negative sensations like astringency or a drying feeling, and if the flavor compounds are too excessive as well, they can feel unpleasant and harsh (like the taste of crema).
+So it uses a fast flow velocity of around 3-4mlps, but limits it from increasing beyond that, reducing the harsh flavor that could otherwise easily result.
+Originally, even on Decent, if you customized a profile yourself, you could set a flow velocity limit even on pressure profiling; this approach acts literally as a limiter, so it's the same as a normal profile except that it limits flow velocity and reduces pressure only near the end of the extraction, when flow velocity picks up.
+But if you look closely at the Decent profile, there's a flow velocity limiter and a limiter detection range setting: instead of setting the limiter directly to 4mlps, if you set the limiter to 1mlps and the limiter detection range to 3mlps, then once flow velocity exceeds 1mlps, it acts as a weak limiter, trimming the increase in flow velocity a little at a time, and if it keeps increasing and goes past 4mlps, it acts as a strong limiter, repeatedly stopping and resuming the pump.
+In other words, since in fast extractions the brew velocity is mostly between 1 and 4mlps, unlike the normal case where flow velocity increases as fast as possible while the target maximum pressure is maintained and then holds once it reaches the limiter's set value, proceeding this way — with the limiter itself set low and the detection range applied broadly — makes it act as a weak limiter throughout the extraction, increasing flow velocity slowly from 1 up to 4mlps.
+(So the change in flow velocity becomes gentle, and the graph shows pressure decreasing gently in the same way — much like a lever machine profile.)
+(The profile's author describes it as a resistor. They say it's similar to the way a gicleur restricts flow velocity. I haven't used a machine with a gicleur, so I don't know if that's accurate.)
+Considering that a change in speed is acceleration, and is force, I think this approach of keeping the change in flow velocity small will minimize the impact the puck receives from the fluid's kinetic energy (which increases as extraction proceeds).
+Of course, there's also a way to build a profile that directly and gradually decreases pressure or flow rate (flow rate increases), but this approach is hard to match one by one to the different brew times and other conditions that vary from coffee to coffee.
+In a word, it's much more convenient and efficient in terms of general applicability.
+If I had to pick out one more feature, it would be temperature, but I'll skip it since it's similar to the existing turbo shot profile.
+(3) Wrapping up
+I've only been using this profile for a short while so far.
+At least in theory, I think it would be hard to find a better profile than this, so I plan to keep pulling shots with it enthusiastically for a while.
+I first tried extracting with a grind size similar to the turbo shot; the first attempt failed because I set it up wrong, but after fixing it, satisfying results came right from the second attempt.
+It tasted like a well-pulled turbo shot.
+I'll keep looking into it, focused on consistency, convenience, and quality,
+and I'm simply grateful to Joe D. for rekindling my fading passion for light-roast espresso.
+References
+Not the author, but a Decent user's blog that explains this profile:
+https://pocketsciencecoffee.com/2022/05/31/birth-of-turbobloom-and-extractamundo/
+[image: https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpocketsciencecoffee.files.wordpress.com%2F2022%2F05%2Fimg_3575-e1653805525599.jpg%22&type=ff500_300]
+Birth of Turbobloom and Extractamundo!
+EDIT: Yang Luo kindly translated this post to Chinese and can be accessed here. When Cameron et. al. released their peer-reviewed paper on turbo shots, it kinda took the espresso world by storm. It…
+pocketsciencecoffee.com
+Profile author Joe D.'s visualizer address:
+https://visualizer.coffee/people/joe-d
+Visualizer | Joe D
+Filter 2.0.3 August 12, 2023 14:13 Mixed Blend 16.0g:80.5g (1:5.0) in 58.6s Lagom P100 - HU @ 3 Filter 2.0.3 August 11, 2023 15:41 Mixed Blend 16.0g:80.8g (1:5.1) in 57.8s Lagom P100 - HU @ 3 Extractamundo Dos! August 10, 2023 14:39 Prodigal Colombia Luis Guzman Caturra 17.5g:40.2g (1:2.3) in 15.9s ...
+visualizer.coffee
+<div id="

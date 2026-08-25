@@ -1,0 +1,56 @@
+# Reflections on How Fines Affect Sensory Perception
+Published: March 11, 2023
+URL: https://blog.naver.com/klar201/223041466861
+
+se-main-container">
+All along, I've heard information here and there about the sensory characteristics tied to particle size.
+Fines are mainly said to be involved in body and sweetness, boulders in flavor, and there was even content saying that specific particle sizes are responsible for specific flavors.
+Honestly, it felt like it was true to some degree.
+After all, coarser particles extract less, so the taste leans sour, and conversely finer particles shift to a darker tone.
+So last night, before going to sleep, as I planned an extraction,
+I thought, "What if, instead of tapping the hopper chute at the end of grinding, I grind a somewhat larger amount and extract the same quantity, but with coffee that has less fines — wouldn't that give a cleaner, clearer flavor?"
+So this morning, I extracted with my own sprover profile — brewing like filter coffee on the Decent machine using a WAFO basket and two paper filters — and tasted it.
+Since I have a previous extraction result under identical conditions except for the fines removal, I'll compare the two graphs.
+[image: https://postfiles.pstatic.net/MjAyMzAzMTFfMjk0/MDAxNjc4NTA4Mjg0MjQ1.LV2zK0eaivOEnS_97TD6yTujf72a1q3coDorTFkNKvUg.GDJlVi8mNVrj1LegP89bMPpsm73QuLrsuvmdTJ7iDEog.JPEG.klar201/%EC%9D%B4%EB%AF%B8%EC%A7%80_2023._3._11._%EC%98%A4%ED%9B%84_1.17.jpeg?type=w580]
+The dark line is the earlier, ordinary extraction, and the light line is today's extraction with reduced fines.
+Since the ordinary case has more fines and thus higher resistance, the pressure ran slightly higher than in the reduced-fines case.
+Brew time was 3 seconds faster for the ordinary case.
+Since it's a profile that keeps flow rate constant, it seems to be because the side with greater resistance has higher pressure, and so brew speed also comes down a bit faster.
+When actually brewing filter coffee, the side without fines removed would extract more slowly.
+Concentration came out at 1.31% for the dark-line ordinary side, and 1.27% for the light-line fines-removed side.
+The average grind size on the dark, ordinary side would be finer, so this is an expected result.
+If this had been an ordinary hand-poured case, the fines-removed side would likely have had a faster brew time too, so the gap would have been even larger.
+Looking only at the numbers — a 3-second difference in brew time, a 0.04% difference in concentration — these are almost negligible figures.
+(If brewed by hand, the concentration difference would have been large enough not to ignore.)
+But in sensory evaluation, there was a very large difference:
+completely contrary to expectation, the fines-removed side had a much darker tone than the ordinary case, and less acidity intensity.
+That bean had been full of bergamot aroma, and that was gone too.
+I wondered if my sense of taste had gone strange after breakfast, and kept tasting, but it was the same.
+It felt like a result similar to brewing with a Comandante at work.
+(Compared to the SSP cast burr I always use at home, even with similar concentration and yield it comes out darkly toned down.)
+So, well..
+I was reminded once again that there's still so much that's unknown and not understood.
+It's a single result, and its reliability is naturally quite low, but
+somehow I feel like the same result would come out even if I did it again. Since it wasn't hand-poured..
+For now, tomorrow I plan to go back to doing it the way I used to, tapping the hopper chute as usual.
+I don't want to drink something that tastes bad.
+Still, even though it's just one instance, I did think about the result.
+Rather than boulders being responsible for flavor, as commonly said,
+isn't it more that fines have a bigger degree of influence on flavor?
+Thinking critically about the boulder-flavor theory, it is a bit strange.
+Compounds shouldn't be present differently by particle size, so why would people say flavor shows up differently by size?
+Wouldn't it rather depend on the distance between a particle's original pre-grinding position and the bean's center, since the surface, even slightly, gets more roasted during roasting?
+Flavor compounds are usually smaller and lighter in molecular weight than water, so wouldn't the proportion of compounds extracted from fines be higher?
+The compounds carrying sweetness and body are larger and heavier in molecular weight than water, and rather than varying by grind size, aren't these just determined by concentration, in proportion to the dose?
+Maybe if the average of the particle-size distribution gets coarser, the extraction dynamics themselves change,
+brew time shortens, and because of that a difference appears in concentration and yield,
+isn't it easy to think that way, and
+I turned it over in my head.
+Related to this, Lance Hedrick's Instagram recently posted material organizing, as a graph, the ratio of fines against average particle size for 3 hand grinders (Kinu M47, Weber Workshops Omega, Comandante),
+(look it up for the details)
+In the comments below, Professor Samo Smrke said, "those 3 grinders are outstanding at pour-over grind size (considering only the fines ratio), and while they're not as good as high-end large burrs at espresso grind size, they're better than other expensive, somewhat larger electric burrs."
+That comment was probably made under the assumption that "for pour-over, less fines means better quality, and for espresso, quality is better when there's a certain amount of fines,"
+and if it's true that the Comandante produces fewer fines than my SSP cast burr,
+and if less fines makes flavor expression harder,
+then it explains why the coffee I brew at work always comes out darkly toned down.
+<div id="

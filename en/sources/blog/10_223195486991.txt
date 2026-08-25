@@ -1,0 +1,37 @@
+# Espresso Series II. Bernoulli's Principle
+Published: August 28, 2023
+URL: https://blog.naver.com/klar201/223195486991
+
+se-main-container">
+Before explaining how crema forms, I'll first explain, as simply as possible and mostly through examples, the background knowledge needed for that explanation: Bernoulli's principle.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjZfOTMg/MDAxNjkzMDU0ODE4MDQ3.V5cjMnwU841uKoZSSSDC3iArUPkAQUWtSQOQ-tbuZKog.K_Fp2P36NL-ZWBhQgDojmw-Jpr7FIa56_cYVoKb7xG8g.PNG.klar201/image.png?type=w580]
+Bernoulli's principle
+Bernoulli's principle, stated at the minimum level of definition needed for coffee extraction, is that when a fluid flows through a channel with different cross-sectional areas like the one above, the flow rate (the amount of fluid) that passes through points 1 and 2 over a given time is conserved — that is, the same.
+In other words, since the cross-sectional area of A1 is larger than A2, for the same amount of fluid to move through points 1 and 2, v1 must be slower than v2, and this will be inversely proportional to each cross-sectional area.
+Also, since conservation of energy holds as well, if we calculate it as an equation of work, P1 * v1t = P2 * v2t, we can see that pressure is inversely related to the flow velocity at that location.
+Summarized around flow velocity: flow velocity is inversely proportional to the cross-sectional area at each location, and inversely proportional to pressure as well.
+To give a few of the most common everyday examples: first, there's the phenomenon on a windy day where, when you open the window, the room door keeps closing on its own no matter how many times you open it.
+Because pressure is lower where the airflow is faster (since flow velocity and pressure are inversely related), a force is generated that acts from the surroundings toward the center of the flow, and since the fluid flow differs sharply on either side of the door, this force acts across the door and it gradually closes; also, because cross-sectional area and flow velocity are inversely proportional, the more the door closes, the faster the air passing through it moves, and likewise the pressure difference grows larger, so a greater force acts and the door's closing speed becomes very fast, and as a result it slams shut — bang! — causing noise and irritation.
+Another phenomenon you can easily experience is the traffic jam that occurs on a bottleneck road where the number of lanes decreases.
+Anyone who drives has experienced this several times: on a road with such a bottleneck, where there are many lanes (large cross-sectional area) it is very congested before you pass through (pressure is high) and the speed is very slow, but after passing through and entering the section with fewer lanes (small cross-sectional area), it suddenly opens up (pressure is low) and the speed increases.
+An even easier example to see is a showerhead.
+The smaller the shower holes, the faster the water comes out and the stronger it feels, and the larger the holes, the weaker it feels, but if you collect the water for the same amount of time, the two amounts are the same.
+If it's still hard to understand even after reading the examples, you can just memorize it.
+If a fluid's speed is fast, the pressure around it is low, and if there is a channel for the fluid, its cross-sectional area is small,
+if a fluid's speed is slow, the pressure around it is high, and if there is a channel for the fluid, its cross-sectional area is large.
+If we simplify the flow of fluid in espresso extraction as well, it can be seen as a flow in which the cross-sectional area it passes through changes, as shown below.
+[image: https://postfiles.pstatic.net/MjAyMzA4MjZfOTMg/MDAxNjkzMDU0ODE4MDQ3.V5cjMnwU841uKoZSSSDC3iArUPkAQUWtSQOQ-tbuZKog.K_Fp2P36NL-ZWBhQgDojmw-Jpr7FIa56_cYVoKb7xG8g.PNG.klar201/image.png?type=w580]
+In a figure like the one above,
+A1 is the cross-sectional area of the headspace, that is, the area of a circle with a diameter of 58mm, and the narrowed cross-sectional area afterward, A2, can be taken as the area occupied by the coffee particles in A1 — the area of the empty space where water can flow — when the packed coffee puck is cut along a horizontal plane.
+Naturally, this area will differ depending on the height at which you cut the horizontal plane, and in particular, the cross-sectional area of the empty space at the very bottom of the puck will be smaller than elsewhere.
+(If you read the previous installment on preinfusion carefully, you'll understand this.)
+Therefore, compared to the downward flow velocity in the headspace, the flow velocity of water at each point inside the puck as it passes through the coffee will be faster, and since the gaps between particles narrow toward the bottom of the puck, it will become even faster and reach its peak speed there.
+I think this very high speed of the water moving as it passes through the coffee puck plays an important role in the formation of crema, which I'll explain next.
+Also, to add one more thing: since the pressure of the water flowing inside the puck is inversely proportional to the flow velocity, we can infer that it will be much lower than the 9bar in the headspace.
+(Note)
+Decent users often encounter flow rate and brew flow rate in the graph, so this can be confusing: the flow rate shown in the graph is the amount of water that flowed per unit time, with units of 'volume/time', while the flow velocity explained above is the fluid's speed — that is, how fast the water moves — with units of 'distance/time'.
+As mentioned before, since flow rate must be conserved, the speed of the water passing through the puck changes, growing faster at each point, but the rate at which the total amount of coffee that has come out through the puck increases is the same as the rate at which the total amount of water the machine has sent to the group head increases.
+In other words, if we consider Bernoulli's principle alone, the blue line and the brown line in the graph should be exactly the same once extraction has started.
+However, since there is error in the Decent's flowmeter, household voltage is unstable, and there are also calibration issues depending on voltage and mains frequency, the difference between the two graphs gradually grows larger as the flow rate increases. (On the author's Decent, at least.)
+(Also, the fact that Bernoulli's principle doesn't apply in every case is another reason.)
+<div id="

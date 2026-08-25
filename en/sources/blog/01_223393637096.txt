@@ -1,0 +1,130 @@
+# Controlling Flavor Change via Flow Velocity - Practice III (Final)
+Published: March 24, 2024
+URL: https://blog.naver.com/klar201/223393637096
+
+se-main-container">
+What I always experienced while drinking filter coffee was,
+that whenever I tried various recipes and thought "I've found the best one!",
+a few days later the taste would change, and it would become a cycle of experimenting with various changes to try to bring the changed taste back.
+From my experience so far, I knew that flow rate and flow velocity greatly affect flavor extraction,
+and since flavor compounds disappear over time, I kept trying to raise the flow rate in order to bring out more of the diminished flavor,
+but the results were always bad.
+While wandering like that, I came across content about La Cabra's recipes by degassing period.
+https://www.lacabra.dk/pages/how-we-brew
+[image: https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fwww.lacabra.dk%2Fcdn%2Fshop%2Ffiles%2FLa_Cabra_Logo.png%3Fv%3D1696581955%22&type=ff500_300]
+How We Brew
+La Cabra is a modern coffee company born out of Denmark. We embrace innovation and traceability in each step from cherry to cup, and with our single roast philosophy we aim to introduce you to some truly memorable coffee experiences.
+www.lacabra.dk
+To summarize briefly, it's as follows.
+Degassing period
+0~2 weeks
+2~6 weeks
+6 weeks~
+Number of pours (including pre-wet)
+2
+3
+4
+Target TDS
+1.25 ~ 1.35%
+1.4 ~ 1.5%
+1.55 ~ 1.65%
+Temperature
+90
+94
+94
+(I see the website content has changed since. The content in the table is from before and may differ slightly from the current content.)
+The key point is, opposite to my own intention of raising the flow rate as flavor drops off, you can see that as the days off roast pass, they increase the number of pours and pour a little at a time, lowering the flow rate.
+What I realized on seeing this, oh! —
+if you forcibly raise the flow rate to try to pull out flavor that isn't there, it's more likely to produce a negative result (generally a grainy sort of feeling),
+and conversely, lowering the flow rate and, instead of the flavor that isn't there, raising the concentration to bring out strengths centered on sweetness and body is more likely to produce a positive result.
+In other words, since the degree of a coffee's flavor compounds is fixed at that point in time,
+rather than trying to change it, if there's a lot, extract a lot to bring out as much flavor as possible,
+and if there's little, extract little and instead extract centered on sweetness and good texture.
+Besides flow rate and TDS, referring to the other factors that affect flavor intensity —
+that is, the remaining variables I briefly organized in the previous installment —
+I compose and use recipes divided into stages according to the intensity of flavor the coffee has.
+Let me introduce them briefly.
+Stage
+1
+2
+3
+Dose
+15g
+18g
+21g
+Temperature
+90
+93
+93
+Number of pours
+2
+3
+4
+Average flow rate
+about 2ml/s
+about 1.4 ~ 1.6ml/s
+about 0.6 ~ 0.7ml/s
+Target TDS
+1.3 ~ 1.35%
+1.4 ~ 1.45%
+1.5 ~ 1.55%
+Filter
+Hario 02
+Cafec light
+Hario 01
+(1) Stage 1
+The Stage 1 recipe is mainly for coffees with very strong flavor, such as Nordic or anaerobic ones.
+It's the Café Buff recipe, and briefly organized it's as follows.
+60(0:00, nested, center) -240(0:25, 120 center -200 spiral -240 center)
+(original Instagram video - https://youtu.be/Fog44SMkK5I?si=rWhcItDFsr3nzByu&t=544)
+The dripper used is V60 throughout,
+and the distinctive feature is that the high proportion of center pour forms a very fast flow, with a very high flow rate, so brew time usually falls to around 1:40.
+If extracted well as intended, the strong, harsh sensory notes that appear when extracted with the Stage 2 recipe — for example, greenish or dried fruit notes — aren't felt,
+and while it's tea-like, since the TDS isn't low at 1.3~1.35%,
+it extracts without being too watery or having a hollow-in-the-middle feeling.
+Besides this recipe, very-low-dose recipes like April, or flat-bottom recipes like Glitch, are also fine.
+(2) Stage 2
+Stage 2 is the basic reference recipe, an unremarkable one at 18g split into 3 pours at 45-second intervals.
+80(0:00) -185(0:45) -290(1:30)
+or
+80(0:00) -175(0:45) -270(1:30)
+Use it as a first try for an unremarkable washed coffee or a natural that isn't strongly fermented,
+or when you extract with the Stage 1 recipe and it comes out flatter and more washed-out than expected,
+or when a coffee's flavor was strong at first so you were extracting with Stage 1, but then time passed, the flavor dropped, and it turned flat and washed-out.
+When using the Stage 2 recipe for a first extraction,
+fix all other variables, use only grind size to hit the target TDS of 1.4-1.45%, then do a sensory evaluation — if the strong flavor is negative, switch to the Stage 1 recipe,
+and conversely if the flavor is weak and flat, with a barley-tea-like grainy quality and a hollow-in-the-middle feeling, use the Stage 3 recipe.
+The filter is a matter of personal preference —
+I use Cafec light because it's a bit less sour and smoother than the Hario 02.
+With this recipe there is some difference in flow rate between the two filters, but it's not as big as you'd think. (Cafec light is slightly slower, within about 10 seconds of brew time.)
+(3) Stage 3
+Stage 3 is a hand-drip recipe.
+The basic approach is 21g with about 145g split into four pours to get a 100g beverage weight, then add 100g of dilution water.
+40(0:00) -80(0:45) -115(1:15) - 145(1:45) + 100ml
+Because it's a hand-drip recipe, the kettle flow rate needs to be very low, around 2ml/s.
+(The other two stages, 1 and 2, are around 6ml/s.)
+45 s pre-wet, then afterward pour slowly, 30~40ml at a time, at 30-second intervals.
+If pouring at an appropriate kettle flow rate, the 30-second interval proceeds as pouring for 15 seconds, waiting for 15 seconds.
+This recipe is used when extracting with Stage 2 and, over time, the flavor drops off and it becomes flat and washed-out,
+or from the start when extracting with a hand grinder.
+Using the common 20g recipe, 20:300~320, split into four or five pours, carries the same intent as well,
+but I think lowering the flow rate as much as possible with hand-drip lets you maximize sweetness instead of the lacking flavor, extracting at as high a TDS as possible.
+My method is just one example —
+just recognize the broad direction — with a lot of flavor, high flow rate, fast, and low TDS,
+with little flavor, low flow rate, slow, and high TDS —
+and I think you can apply it in whatever way suits you.
+I'm now going to stop experimental extraction and just drink whatever coffee I like at the time.
+Something I'd still like to explore further is the Filter 3 basket I bought a while ago,
+but having tried it once, the flow rate was too low and its use too limited, so it seems hard to get to it soon.
+Honestly, since I don't even do coffee professionally, I often felt embarrassed writing this kind of post.
+But I wrote it out of a wish to give back, since I've received a lot of knowledge through the internet over the years,
+so I'd appreciate it if you'd be forgiving of any shortcomings you notice.
+※ On astringency and recipes
+If a drying sensation keeps appearing even though the conditions aren't ones that would produce astringency — like uneven extraction, too high a flow rate, or too small a dose —
+in my experience, the best method has been to raise the brew ratio (pour less water) and open up the grind size to maintain concentration.
+I think the astringent compound is probably extracted heavily when water keeps passing through even after the flavor compounds have been excessively extracted and run out.
+I feel that the appropriate brew ratio at which astringency isn't felt differs by grinder.
+On my P64 SSP LS, an ordinary medium-light usually shows a slight astringency at 1:16, and it's barely felt at 1:15.
+And for light or Nordic roasts, astringency is barely felt even at 1:17,
+but given the extraction characteristics, the grind has to be made so fine that it's a burden to lower the brew ratio too much.
+<div id="

@@ -1,0 +1,115 @@
+# Controlling Flavor Change via Flow Velocity - Practice I
+Published: October 28, 2023
+URL: https://blog.naver.com/klar201/223248981204
+
+se-main-container">
+In this installment, I'll use the April 2-pour recipe I currently mainly use,
+to look at how I revise a recipe based on sensory impressions,
+focusing on what role each variable's adjustment plays.
+(1) April recipe
+This is the recipe used by Denmark's April coffee roasters.
+It uses the April brewer and its own filter, developed by founder Patrik Rolf.
+The April brewer has an angle similar to Origami, and the large bottom hole gives it a fast flow,
+and the filter they developed themselves has a slightly smaller diameter than Kalita 155/185, which suits a smaller dose well.
+Dose: 12~14g
+Water weight: 200g
+Beverage weight: (approximately) 165~168ml, based on when the top of the bed dries.
+Pour:
+Kettle flow rate 10mlps
+0:00 ~ 0:35
+100g
+50g spiral,
+50g center pour
+0:35 ~
+100g
+(scale reading 200g)
+washing rim,
+50g spiral,
+50g center pour
+The distinctive features are the very small dose, and
+splitting the pouring method into two — spiral pouring early on, then straight center pours later on —
+and on the second pour, washing down the coffee stuck to the sides by pouring the rim first at the start.
+It's a 2-pour recipe (a single pour if you exclude the pre-wet), and the first pour (pre-wet) is very large at 100g (1:7.7).
+Patrik Rolf explains that rather than thinking of it as blooming, the approach is to extract from the very first pour, aiming to wet everything as evenly and quickly as possible.
+The flow rate graph from Rolf's own extraction is as follows.
+[image: https://postfiles.pstatic.net/MjAyMzEwMjhfNDUg/MDAxNjk4NDYwNjc4MDc5.iaDxyPYovYPW2d_RTGIrXXtNKWijrJACGpmf23i2k_8g.HYiijQ2mNTQ3Zr49T_Z3zdpFQ80ewcaw0B1cI-NS7Z0g.PNG.klar201/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-10-28_%EC%98%A4%EC%A0%84_11.37.18.png?type=w580]
+light green - water poured / orange - beverage extracted / purple - kettle flow rate / sky blue - brew flow rate
+(2) Analysis and modification
+This recipe pours the first pour's amount at a high flow rate,
+securing resistance in the coffee bed to prevent the astringency that easily appears at a low dose,
+and since its own filter also has a slightly smaller diameter than Kalita's, it appears to allow more stable extraction of a small amount of coffee.
+However, since the coffees April uses are of a very dense, light-roast Nordic style,
+if the flow rate is lowered down to the recommended brew time of 2:30 ~ 3:00, most regular coffees end up extracted either flat and washed-out with a dark tone, or dominated by bitterness.
+So for beans roasted in a normal way, the author slightly modifies the recipe,
+increasing the dose a bit (13~15g),
+reducing the beverage weight by about 10ml to target 155ml, (pouring 200g but cutting it off partway),
+and targeting a brew time down to around 1:30 ~ 1:40.
+Since the last 10ml usually takes 10~20 seconds or more to extract,
+cutting the extraction off partway avoids a coffee whose balance collapses from being extracted at too low a flow rate.
+(Since Nordic coffee is flavor-centered, a lower flow rate extraction can actually help reduce flavor extraction and restore balance.)
+(3) F/C Ratio
+Before getting into the use and application of each variable, I'd like to first define one term.
+Since concentration measured with a refractometer is somewhat correlated with sensory evaluation but not precise,
+(it's strongly related to intensity, but has little relation to anything else. Even trying to explain it by bringing in the concept of extraction yield only gives a rough tendency, not enough.)
+there's no choice but to make sensory evaluation as objective and systematic as possible, which is the shortcut to improving extraction.
+There are already various sensory scoring methods using cupping forms,
+but unless you learn them while calibrating within a specific group, the methods are complicated and impractical,
+and I also think this is a method suited only to cupping, which is a pure immersion extraction — the evaluation method should differ for percolation extraction.
+The reason is that in percolation, the extraction of light flavor compounds increases due to the flow of water, so avoiding the negative sensory notes that arise from this should be set as the primary extraction goal.
+These sensory notes that appear from an excess of certain flavor compounds make all coffee taste the same regardless of the coffee, given the same roast level, so I think this is an extraction that kills the coffee's own character and undermines the meaning of specialty.
+It's fair to see these sensory notes arising as an extraction defect caused by the barista's faulty extraction,
+and their types are all the sensory notes listed in the New Brewing Control Chart.
+greenish, dried fruit, berry, astringent, sour, viscous, bitter, roasted, earthy, sweet, floral, etc.
+[image: https://postfiles.pstatic.net/MjAyMzEwMjhfMTUx/MDAxNjk4NDY3NzA3OTM3.nULsdrgr-y06tiwNQq09yPmZmaPrgq4F-XGRrIiVHyQg.1sdOMQZ90N847frLPZU4xOxnge4TV6DrS5gYGJmxjqkg.JPEG.klar201/IMG_3431.jpeg?type=w580]
+'berry, sweet, floral are positive sensory notes, so why are they a faulty extraction?' you might wonder, but these all only appear in specific situations where the balance has collapsed,
+and likewise they're a faulty extraction because they make all coffee taste the same regardless of the coffee.
+In particular, floral, as I perceive it, isn't the distinctive floral aroma felt in the coffee itself from geisha or African beans,
+but rather a pink impression that appears as the sweetness of chocolate and caramel disperses.
+Of course, depending on the bean, this sensory note can be strong or weak, but if you extract with a lower flow rate centered on sweetness, and extract with a higher beverage weight and extraction yield, it appears in every coffee,
+so I likewise consider it a defect.
+(But if it's present even when extracted with good balance, that can of course be seen as that coffee's own characteristic.)
+(If you intentionally raise sourness to bring out sourness in order to emphasize a specific cup note, that couldn't be called a defect. Not if you understand it and are applying it deliberately.)
+So, to avoid this kind of balance collapse from a faulty, extreme extraction,
+I recommend thinking in terms of distinguishing between 'the concentration of light flavor' and 'the concentration of heavy flavor.'
+If greenish, dried fruit, or sourness appears, I judge that 'the concentration of light flavor compounds is (relatively) high,'
+and if bitter, sweet, floral, or muted or dull appears, I judge that 'the concentration of heavy flavor compounds is high.'
+Also, to recognize the degree of this balance quantitatively, I use a method of expressing it numerically as a ratio.
+That is, I express the sensory notes of the extraction result as the F/C ratio.
+F is Flavor, the light flavor,
+and C is Chocolate or Caramel, the heavy compounds.
+F/C > 1
+F/C ≒ 1
+F/C < 1
+Sensory notes
+greenish, dried fruit, sour
+the coffee's own flavor
+chocolaty, floral sweet, bitter
+Characteristic
+harsh
+appropriate
+empty, muted, dull
+Average flow rate
+high
+medium
+low
+This FCR is, of course, unrelated to TDS.
+Even if two coffees both have a TDS of 1.25%, one could be a harsh coffee with an FCR above 1, and the other could be a coffee with an empty feeling with an FCR below 1.
+Also, in the table above, average flow rate is calculated by dividing beverage weight by brew time,
+so even without checking the flow rate, you can judge by brew time alone assuming beverage weight stays constant.
+(brew time FCR 1 or above: short / FCR 1: medium / FCR below 1: long)
+(The reason I'm not giving specific numbers for ranges, or presenting a clear standard, is that each brewing environment and recipe is different,
+and also because the degree of flavor extraction from the coffee itself changes over time.)
+Let me give an example.
+If a coffee I worked hard to brew turns out greenish and sour, and I'm disappointed,
+I'd note the FCR as 1.6,
+and if in the next extraction I increase the brew time and taste it,
+and the sourness is gone and the intensity of the greenish note has decreased,
+I'd note the FCR as 1.3.
+Conversely, if I worked hard grinding by hand grinder and brewed it,
+and it comes out a dark tone with the aroma all dead and tasting like barley tea,
+I'd note the FCR as 0.6,
+and if in the next extraction I increase the dose and taste it,
+and the aroma comes back to life and, while still a dark tone, it's brighter than before,
+I'd note the FCR as 0.7.
+(To be continued in the next post)
+<div id="

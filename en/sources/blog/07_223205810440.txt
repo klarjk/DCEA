@@ -1,0 +1,109 @@
+# Reflections on Flavor Change Driven by Flow Velocity
+Published: September 8, 2023
+URL: https://blog.naver.com/klar201/223205810440
+
+se-main-container">
+If you've read my other blog posts, you'll know I've said many times that flavor changes a great deal with changes in flow velocity.
+Not just me — attempts to pursue a better extraction by varying flow velocity are gradually increasing, such as the new version of the Next Brewer that recently came out, which added a flow-control valve so you can adjust the flow.
+In this post, I'll first lay out a hypothesis centered on the new version of the Brewing Control Chart and on flow velocity, and then write up what I found by actually varying the flow rate and experimenting using the Decent-based Sprover profile I introduced in an earlier post.
+(1) Percolation - Washing off
+Percolation — filtered (permeation) extraction — differs from immersion, where you leave it be and let compounds steep out; instead, it works by applying kinetic energy to the particles through the flow of fluid, extracting compounds by, in effect, washing them off in the flow of water.
+Looking at cupping, a perfect example of immersion extraction, if you simply fix a specific protocol, you always get the same result without any human hand involved.
+And the characteristic of this kind of immersion result is that the texture is smooth and the sweetness is good, while acidity and flavor tend to be relatively muted.
+Even so, the reason cupping is mainly used to evaluate green beans is probably the consistency of not being touched by human hands, and being able to look at the range of changes that naturally emerge as yield and concentration rise over time.
+Percolation, on the other hand, has the proportion of extracted compounds change depending on the strength of the flow.
+So the flavor profile varies a great deal depending on the brewing method, and compared with immersion, it tends to lean relatively more toward flavor and acidity than toward sweetness and texture.
+The reason this sensory difference appears is probably that some compounds get carried easily by the flow of water, while others, conversely, don't come down easily.
+A simple guess would be that light compounds like flavor extract well, while somewhat heavier, more concentrated compounds are less affected by the flow of fluid and simply increase little by little over time.
+(2) On Human Senses (Taste, Smell) and Concentration
+Among the five human senses, taste and smell in particular are heavily influenced by concentration in perceiving a stimulus.
+Before getting into the main topic, let me list a few characteristics of how sensation is perceived depending on concentration.
+At low concentration, there is a threshold — the point where you start to perceive the sensation. Below the threshold, you can't perceive the stimulus.
+Even a type of stimulus that's become habituated to being perceived as pleasant will feel unpleasant if the concentration is too high. In other words, there's a range of concentration that feels pleasant.
+When several kinds of stimulus are given at the same time, mainly only the one that feels the strongest is sensed, and the rest are only felt in a supporting role.
+These stimuli all differ in sensitivity: some can be easily perceived even at low concentration with only a slight change, while others are dull, with a wide range of concentration over which they can be sensed.
+In particular, to judge food safety, which is tied to survival, flavor compounds in the food and beverage category can be detected with high sensitivity.
+In the case of coffee, even a concentration difference of around 0.5% can be perceived and told apart relatively easily.
+Taste and smell, being sensitive, also fatigue easily this way — if the same stimulus continues, the sensation perceived gradually weakens.
+(3) (New) Brewing Control Chart
+[image: https://postfiles.pstatic.net/MjAyMzA5MDVfMTU4/MDAxNjkzODg0ODcyMjU1.G-RestDXA1EVG2G6FgcxFJNa5Sa0xCGLFDmULtA3590g.-e8-ZpW1Sua0xCX5DjL2_fX6vyVaGbev_Q801IbpD-wg.JPEG.klar201/%EC%9D%B4%EB%AF%B8%EC%A7%80_2023._9._4._%EC%98%A4%ED%9B%84_3.43.jpg?type=w580]
+Anyone interested in coffee extraction has probably seen this figure at some point.
+It's a chart that lays out, in an easy-to-understand way, the sensory characteristics of results brewed with an auto brewer at each concentration and yield,
+(For a detailed explanation, I'd suggest checking Seori's YouTube video)
+https://youtu.be/gg7NO8TGZnU?si=kGMjvLlIeO4CsrYR
+For a while I looked at this material and tried brewing to the target concentration and yield, but often a perfectly ordinary coffee at TDS 1.25% and 20% yield would taste greenish, and some other coffee, at that same yield and concentration, would be so severely astringent it was hard to drink.
+(Honestly, from the first time I saw it, my experience told me it was a chart that didn't add up. Still, I think the systematic, statistical approach and the work of pulling all that data together is impressive.)
+For how that chart came about, please refer to Seori's video above; for now, let's look at how that concentration and yield were dialed in during brewing.
+[image: https://postfiles.pstatic.net/MjAyMzA5MDZfNTkg/MDAxNjkzOTgwOTkyNjg1.yt2l7ucO69uOxJA5QHPMKroN5tb_tOCl3PH3IOCKVaYg.V9sel0wY2SxxcncA0xdrhR-x96oXDYjBi0zW983aLVog.JPEG.klar201/%EC%9D%B4%EB%AF%B8%EC%A7%80_2023._9._4._%EC%98%A4%ED%9B%84_2.20.jpg?type=w580]
+If you look at the legend on the chart above, there's something called duty cycle, and you can think of it as representing how often that brewing machine pours water, repeatedly cutting the water on and off.
+That is, 100 means water was poured continuously without stopping, and the lower the number, the more time there is where it isn't pouring.
+The same water weight is poured, but the pouring time is controlled, and looking at the chart, you can see the target concentration and yield were dialed in by adjusting the brew ratio (45–75 g:1000 ml) and the frequency of pouring water.
+Thinking about it from a different angle here, the graph's x-axis originally represents yield, but the lower the yield side, the more frequently water was poured — meaning a larger flow rate was applied —
+and it's also fine to view the higher-yield side as a brew where the pouring frequency was lower, meaning a smaller flow rate was applied.
+In other words, it's reasonable to reinterpret the x-axis as flow rate, high on the left and low on the right.
+Let's continue looking.
+[image: https://postfiles.pstatic.net/MjAyMzA5MDZfMTky/MDAxNjkzOTgxNjExMjQx.UR0e8qW53Dnvrntaeurevnid3tl4bNHHRDvq8Uc88Psg.W0ohPs28eBUId0NklrYn6jbTS8RdunIHuSZklfNR1-4g.JPEG.klar201/%EC%9D%B4%EB%AF%B8%EC%A7%80_2021._10._12._%EC%98%A4%EC%A0%84_10.51.jpg?type=w580]
+This is material that looks at the elements of the main Brewing Control Chart above separately, before they're combined.
+Excluding Black Tea, each item can be broadly divided into two: an upward-to-the-left graph, where intensity is felt more strongly toward the upper left, and an upward-to-the-right graph, where intensity gets stronger toward the upper right.
+The upward-to-the-left graphs are mainly things related to acidity and flavor, like citrus, sour, berry, and there are also unpleasant flavors like dark green, astringent, fermented.
+(It's worth paying particular attention to astringent, dark green, and viscous, which are upward-to-the-left but with a steeper slope — that is, more sensitive to changes in concentration.)
+And the upward-to-the-right graphs mainly have things related to bitterness and burnt flavor, like bitter, brown roast, ashy.
+As I said earlier, if you interpret the x-axis as flow rate, higher on the left, then items on the upward-to-the-left graphs get extracted better the higher the flow rate, and you can see the upward-to-the-right items as being perceived better as you lower the flow rate, extend the time, and the concentration rises.
+In other words, the upward-to-the-right items can be seen as the kind that steep out just by waiting, similar to immersion, and it's fine to view the upward-to-the-left items as ones where, in percolation, the compounds extract more the faster the water flows.
+One more thing — sensitivity of perception also matters a great deal,
+the things shown in yellow and orange tones on the chart above mean they're felt more strongly compared to the ones in green,
+and among these are the ones commonly called over- or under-extraction, like bitter, astringent, sour, viscous,
+and there's also an item that's not fully yellow but a yellowish green, dark green — that is, the item corresponding to greenness.
+You can see that most of the sensory notes known as signs of a flawed extraction have high sensitivity.
+(4) On the Sensation of Flavor
+I think expressions like 'this is the taste of under-extraction, this is the taste of over-extraction' aren't right.
+It's not because you extracted too little or too much;
+in reality, all compounds start extracting at the same time,
+each compound responds to flow velocity differently — in how much extracts and in the beverage weight it contributes over time —
+and at the point of extraction, when some compound's concentration has risen and its stimulus feels the strongest,
+it masks all the other sensations, and that's the more accurate way to describe why a given sensory note shows up.
+Of course it's difficult to know each and every one of these compounds individually.
+I'm not exactly a specialist in the field, after all.
+Still, I want to take a systematic and empirical approach, dividing a few important sensory items by how they respond to flow rate.
+· astringent
+An astringent, dry taste — this is easily perceived either when the absolute value of flow velocity itself is so high that the coffee bed can't sustain the flow, or simply when concentration gets very high, since sensitivity is high.
+(For related content, I'd recommend Jonathan Gagne's blog. Fair warning, it's in English!
+https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/ )
+Given this mechanism, it can show up easily even without a high flow rate if the coffee bed isn't tall enough to withstand the flow velocity (i.e., the dose is insufficient), or if the grinder's unimodality is high so the fines quantity is low.
+· sour, citrus
+This item corresponds to acidity — not to the degree of astringent, but it shows up well when the flow velocity is fast enough.
+If the flow velocity is fast enough that the brew time is very short, and the beverage weight isn't much either so the concentration is also high, you can easily taste a very sour, high sourness.
+If you increase the beverage weight a bit more to lower the concentration and pull out a bit more of the sweetness compounds that come out across the whole brew regardless of flow velocity, the two will blend together into a pleasant acidity.
+(Or, slowing the flow velocity to reduce the beverage weight contributed by the acidity-bearing compounds is another way!)
+· dried fruit, dark green, viscous
+I see these three sensory notes above as one group,
+if the compounds corresponding to sour, citrus above are mainly light, as flavor, extracting intensively early in the brew and running out later so the beverage weight they contribute gradually decreases,
+the three above appear to be relatively heavy vegetal flavor compounds that come out after all the light flavor compounds have been extracted.
+Sensorially, this is mainly felt as a viscous texture carrying greenness, a fishy smell.
+If the astringency above extracts well when the absolute value of flow velocity is high, the greenish kind of sensory note seems to be perceived well when the value of flow rate × time is large — that is, the more sections there are that were brewed at a high flow rate — and when the concentration is also high.
+In other words, even if the flow velocity isn't very fast, it's perceived well if you brew while keeping a moderately fast flow velocity and the concentration is high, and this is far more common than you'd think — with a dripper like the V60, which has a fast flow velocity and holds it well, brewing at a high concentration will very likely produce it.
+(Even at supposedly famous roastery cafés, I've more than once been handed a hot V60 coffee reeking of greenness.)
+The dried fruit sensory note (the raisin type) tends to be felt well, depending on the coffee, when there's a lot of sweetness compound and also a certain amount of greenness compound.
+And viscous is when the coffee is felt as a mucus-like texture, which shows up when there's a lot of extraction of this greenness compound and the concentration is extremely high.
+To avoid this kind of greenness, you need to lower the overall degree of percolation-based extraction.
+The easiest way is to lower the concentration, either by increasing the beverage weight or reducing the dose,
+and if you want to avoid greenness without lowering TDS, you need to lower the flow velocity across the whole brew. (That is, you need to extend the brew time to raise the immersion proportion.)
+Originally, greenness has long been solved by raising the brew ratio to increase yield, so it's been known as a sensory note of under-extraction, but I think it's actually over-extraction of flavor.
+· Other odds and ends
+I think bitterness is a sensory note of chaos.
+That is, it's perceived when both flavor compounds and heavy compounds are in excess — a state where a great many compounds are all jumbled together.
+It's the way a herbal decoction boiled from many different medicinal ingredients tastes bitter.
+In my experience, berry flavor was something I could perceive in hand-drip-type coffee with dilution water, brewed slowly at a lowered flow velocity and cut short, when the concentration was high.
+It appears to show up when the flavor compounds are extracted slowly without being strong, but since the beverage weight is small and the brew is cut off early, the flavor compound concentration ends up moderate, while the sweetness compounds are ample and rich.
+It feels like drinking a dark red fruit juice — the kind of taste you'd imagine if there were such a thing as coffee-cherry juice.
+For fermented flavor, if you look at the second figure of the Brewing Control Chart above, you can see it's an upward-to-the-left item.
+That is, since it will be perceived better the faster the flow velocity, if you brew beans that smell dirty at a fast flow velocity in order to bring out flavor, the taste will just get dirtier.
+If you want to avoid the fermented off-note of natural or anaerobic beans, the best method is first to block the fermented off-note from getting worse in the first place with frozen airtight storage,
+and if you unavoidably have to use up beans that smell rotten, lowering the flow velocity to brew slowly will help. (In exchange, though, you give up bright acidity and flavor.)
+(5) Closing
+Honestly, all of this is just one opinion based on my own experience.
+I've tried to secure some objectivity, such as by borrowing content from the Brewing Control Chart, which was tested with a lot of reliable data, but,
+since things related to flavor compounds don't register on a refractometer, it's not easy to prove them with scientific thinking.
+Still, to add even a little more credibility, in the next post, using each set of data brewed with the Sprover profile made from a Decent machine's flow-rate profile,
+I'll analyze my brewing log, where I recorded what the sensory characteristics were like for each flow rate, and look at the process that led me to put forward this opinion.
+<div id="

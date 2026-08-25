@@ -1,0 +1,42 @@
+# On Degassing (More Important Than You'd Think)
+Published: June 9, 2023
+URL: https://blog.naver.com/klar201/223124639301
+
+se-main-container">
+The senses through which we perceive coffee's flavor are broadly two: taste and smell.
+Of course, body could arguably fall under the category of tactile sensation — the texture felt on the tongue — but I think that's just an illusion, and that it actually belongs to taste: the perception of fat's flavor or of concentration.
+I think correct extraction means positioning the concentration (intensity) of these two important senses within an appropriate range — it shouldn't be too little, and it shouldn't be too much.
+For taste, you can easily dial it in just by checking with a refractometer and adjusting grind size. The author aims for 1.3%, trying to keep it within ±0.05%.
+Of course the kind of taste matters a great deal too, but purely in terms of the intensity of the sensation — that is, concentration — adjusting TDS is the end of it. There's nothing more to it.
+But smell is different.
+It can't be measured with an instrument, it's an extremely personal feeling, and it's even a relative sense that tires easily, so it's very hard to make objective.
+Also, when evaluating how coffee feels after drinking it, the structure of taste is such that the brain perceives it by combining taste and smell together, so when a negative feeling is strong, it's practically impossible to distinguish whether the problem is with the taste or with the aroma.
+But even if it's impossible, you have to know exactly what the problem is in order to correct and improve extraction and move forward.
+So, without worrying about the profile of taste or smell, if the goal is simply to bring concentration and intensity properly into range, you can check TDS with a refractometer and adjust it to the proper concentration, and then if the impression after tasting is still negative, you can rule out the taste side and simplify things by inferring that something must be wrong with the aroma.
+So why does it feel unpleasant in terms of smell?
+Because there's either too much or too little.
+It's obvious that too little will feel empty, thin, or weak, but many beginners overlook the fact that a strong olfactory stimulus can also give a negative feeling.
+I think the sensations widely known to correspond to over extraction — bitterness, astringency, or a harsh sensation — mostly arise from this excessive olfactory stimulus.
+I also think the greenness caused by vegetal compounds, the boiled-vegetable taste, and, worse still, the slimy, nausea-inducing greenish stimulus, are likewise an excess of a specific flavor.
+The same is true of the sweet aroma that produces sweetness: at low concentration it's sweet, at higher concentration it can show a floral aftertaste depending on the bean, but when it's too excessive it takes on a burnt taste.
+How do you control this excessive flavor stimulus?
+Since aroma is a sensation carried through gas, you can approach it from two angles: degassing and temperature.
+If the impression after tasting an extraction is negative, but the number the refractometer shows isn't too high (1.5% or below), and there was also no particular mistake or sign of uneven extraction in the process, then I think you can reduce the negative stimulus precisely through this degassing and temperature control, and in practice it is effective.
+Temperature control is, naturally, to lower it if the aroma is excessive and raise it if it's lacking.
+Naturally there's a range limit: the upper bound is obviously 100°C, and I think the lower bound is around the mid-80s°C, because below this temperature the tasting temperature can get too low over the course of drinking one cup.
+The other side is degassing: if the roastery's label says the recommended degassing period for a light roast is 5 days, and after 5 days of degassing you extract at a mid-80s°C temperature and it comes out greenish, you need to give it a longer degassing period.
+If the greenness only disappears once you give it a very long degassing period (e.g., 3 weeks to over a month), or if the greenness disappears after such a long degassing period but the positive coffee aroma disappears along with it, leaving it flat, you can judge that the roasting was done wrong.
+Also, if you have no other coffee on hand besides beans that haven't degassed enough and have no choice but to extract with them, there's a simple method: grinding it ahead of time before extraction and giving it a resting period.
+At April Coffee in Hannam-dong, which brings in beans from its headquarters in Denmark, they apparently grind the beans they received the day before ahead of time and use them the next day.
+Also, in various brewing competitions, most competitors use beans just a few days off roast, and apparently they grind them one or two hours ahead of time for degassing before going into the demonstration.
+In the author's case, when greenness was still present even after 5 days of resting, extracting with just a 30-minute gap after grinding produced a very positive effect.
+This is especially true for Nordic roasts, light roasts done on a Loring, or beans hard enough that they don't crush even when pressed. It seems most of these need a baseline degassing period of at least 2 weeks.
+(Aside)
+Differences in the intensity of greenness depending on brewer shape
+The author has lately been fond of using a Kalita Wave filter in an Origami dripper, and is often surprised to notice stronger greenness when occasionally extracting with a V60.
+I suspect this comes down to a difference in brewer shape: the bottom of the V60's coffee bed is very deep, making it a structure where the gas has a hard time naturally escaping during extraction, so I think it's more likely to end up in the cup.
+So I think the V60 definitely needs at least some degree of center-concentrated blooming (or else digging out the center into a bird's-nest shape), whereas for a flat-bottom, as long as degassing is sufficient, my opinion is that blooming may not really be necessary, much like with espresso.
+Conversely, when you have to revive a "dead child" — beans that are long past roasting — it would be better to extract with a conical dripper rather than a flat-bottom, without a pre-wet.
+(Note)
+I should note that this post was written by watching video material from April Coffee Roasters on YouTube and organizing my usual experience and thoughts. If you're interested, I recommend finding and watching that channel's videos on extraction theory or recipes.
+<div id="
