@@ -6,7 +6,7 @@ The extraction variables and their directions as organized by the author. Source
 
 Tier notation: `fundamental` = changes the total flavor load (not a prescription target) / `adjustable` = prescribable. The basis is the two variable tiers in `model.md`.
 
-> Throughout this document set, a **higher brew ratio** means **less water** — 1:15 is higher than 1:16.
+> **Brew ratio notation**: this document set follows the conventional direction — a **higher brew ratio** means **more water** (1:17 is higher than 1:16). Only Sources 01 and 02 state it the other way round (07, 09, 12 and 14 already use the conventional direction — checked 2026-08), and the direction is flipped **only when summarizing or restating** those two. **Verbatim quotations in quotation marks are never flipped** — the citation rule takes precedence.
 
 ---
 

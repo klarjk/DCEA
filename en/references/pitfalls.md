@@ -25,7 +25,7 @@ The user may have heard the opposite advice elsewhere. On a conflict, **follow t
 
 | Item | Conventional wisdom | The author |
 |---|---|---|
-| Astringency | a sign of over-extraction | **Flow velocity is too fast.** Water still passing through after the extractable flavor has run out |
+| Astringency | a sign of over-extraction | **Extraction continues after the flavor has run out.** An excessive peak flow velocity is only one route — channeling, an excessive beverage weight, and high flavor with high TDS together get there too |
 | Greenness | a sign of under-extraction | **over-extraction of flavor** |
 | Bitter, astringent, harsh taste | over-extraction | mostly **excessive olfactory stimulus** (a degassing or temperature problem) |
 | Fines | responsible for body and sweetness | **responsible for flavor**. Remove them and the aroma dies |
@@ -73,7 +73,7 @@ If asked, answer that it is not known. Do not make it up.
 
 - **The chemical identity of the flavor compounds** — "it's not as if I majored in anything like that". The F/C split is not chemistry but **an operational classification by flow-velocity responsiveness**
 - **Why the dose governs flavor intensity** — even at the same brew ratio, a larger dose gives stronger flavor. Only two candidates are offered, with no conclusion
-- **The exact conditions under which astringency arises** — at the level of "I think it's probably ~, isn't it"
+- **The quantitative threshold for astringency** — the author has stated the condition under which it arises ("when extraction continues after F has run out"), but it is still a [Hypothesis], and **at what point F is depleted, and the threshold for each brewer and grinder, are unknown.** 4mlps is a measured value on the author's equipment, not a general constant
 - **Why the appropriate brew ratio differs by grinder**
 - **Why a high TDS at a low flow rate is not harsh**
 - **The theory of espresso basket geometry is at the theory stage with no measurements** — "since measuring flow rate is not easy, I will skip over it rather than deal with it" (Source 05)

@@ -101,13 +101,13 @@ Core branches:
 
 | Symptom | Cause | Manipulation target |
 |---|---|---|
-| Astringency · dry | Excessive **peak instantaneous value** of flow velocity | Cap the early flow rate |
+| Astringency · dry | **Extraction continues after F is depleted** (excessive peak flow velocity · channeling · excessive beverage weight · high flavor and high TDS together) | Differs by route — see the route triage table in `diagnosis.md` |
 | Greenness · greenish | Excessive **average flow rate** (flow rate × time) | Lower the concentration, or lower flow velocity across the whole run |
 | Piercing sourness | Fast flow velocity + high concentration | Increase the beverage weight or lower the flow velocity |
 | Flatness · barley tea · an empty feel | Insufficient total flavor load | Lower the flow rate + raise the TDS |
 | Bitterness | Balance collapse | Probe further for clues |
 
-**Do not lump astringency and greenness together.** Both look like "too fast," but the manipulation target differs.
+**Do not lump astringency and greenness together.** Both look like "too fast," but the manipulation target differs. Astringency can appear even when the peak flow velocity was low, so **tell the routes apart first** — see the route triage table in `diagnosis.md`.
 
 **If it is negative but the concentration is not excessive and there was no extraction mistake** → treat it as a degassing · temperature problem. See the smell/taste separation gate in `diagnosis.md`.
 

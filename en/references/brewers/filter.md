@@ -134,8 +134,10 @@ The lower the roast level, the more flavor there is, and the more flavor there i
 
 ## Brew Ratio and Flavor (with Grind Size Fixed)
 
-- The higher the brew ratio (1:14~1:15, less water), the **stronger** the flavor
-- The lower it is (1:16~1:17, more water), the **weaker** the flavor
+- The lower the brew ratio (1:14~1:15, less water), the **stronger** the flavor
+- The higher it is (1:16~1:17, more water), the **weaker** the flavor
+
+Sources 01 and 02 state this direction the other way round (they call the less-water side "higher") — the "Grinder-by-Grinder Limit Line for Astringency" section below also comes from Source 01. The notation convention is at the top of `variables.md`.
 - "You can feel a clear difference from as little as 10ml of water weight, so **a scale is not optional but essential**"
 
 **However, if you adjust grind size along with it so that TDS matches, there is no large difference** — "within a range that is not large, there is less difference in flavor than you would think". (Source 02)
@@ -144,7 +146,7 @@ The lower the roast level, the more flavor there is, and the more flavor there i
 
 ## The Astringency Limit Line by Grinder
 
-If a drying sensation persists even when the conditions for astringency (uneven extraction · excessive flow rate · insufficient dose) are not present, **raise the brew ratio, pouring less water, and open up the grind size to maintain the concentration.** (Source 01)
+If a drying sensation persists even when the conditions for astringency (uneven extraction · excessive flow rate · insufficient dose) are not present, **lower the brew ratio, pouring less water, and open up the grind size to maintain the concentration.** (Source 01)
 
 On the author's setup (P64 SSP LS):
 
@@ -152,7 +154,7 @@ On the author's setup (P64 SSP LS):
 |---|---|
 | Medium-light 1:16 | Slightly present |
 | Medium-light 1:15 | Almost none |
-| Light · Nordic 1:17 | Barely noticeable (but the grind size has to be fine, so lowering the brew ratio is a burden) |
+| Light · Nordic 1:17 | Barely noticeable (but raising the brew ratio beyond this forces a fine grind, which is a burden) |
 
 > "I feel that **the appropriate brew ratio at which astringency is not perceived differs from grinder to grinder**."
 

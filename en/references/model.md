@@ -29,6 +29,29 @@ Raise the flow rate and F increases in absolute amount (washing off by kinetic e
 
 **Perceptual layering** — when several stimuli arrive at once, only the strongest one is mainly sensed and the rest are masked. [Theory] (Source 07)
 
+### The Condition Under Which Astringency Arises
+
+**The astringent compound is extracted when water keeps passing through after F has run out.** That is the condition; an excessive peak flow velocity is only one of several routes to it. [Hypothesis] (Source 01)
+
+> "I think the astringent compound is probably extracted heavily when water keeps passing through even after the flavor compounds have been excessively extracted and run out." (Source 01)
+
+Because the F reservoir is finite, "after depletion" can hold **for the whole bed or for one zone alone**. Four routes lead to the same condition. [Hypothesis] (Source 01)
+
+| Route | How it becomes "after depletion" |
+|---|---|
+| Excessive peak flow velocity | F is washed out all at once over a short stretch, and the flow that follows passes through an emptied bed |
+| Channeling | a lot of water funnels through a narrow zone at high flow velocity, so **that zone alone** is depleted first while water keeps passing through it |
+| Excessive beverage weight | too much water is passed through relative to the total flavor load, so the whole back half becomes a post-depletion stretch |
+| High flavor and high TDS together | if the flow rate pulls out plenty of F and the time and grind size also drive C up, extraction continues past the point where F has run out |
+
+**What pulls the depletion point earlier is a tier-1 variable.** When the total flavor load is small (insufficient fines, an insufficient dose, excessive degassing), it runs out earlier on the very same recipe. Note it, but prescribe from tier 2.
+
+**Separate arising from perceiving.** At a very high concentration, sensitivity rises and astringency is perceived more easily even when no more of it is produced. (Source 07)
+
+This is why the prescription for astringency runs toward **extracting less**. The goal is to remove the post-depletion stretch, so **raising the flow rate, lengthening the time, and grinding finer all run the wrong way**. Route triage and prescriptions are in `diagnosis.md`.
+
+---
+
 ### FCR assessment table (Source 03)
 
 | | F/C > 1 | F/C ≒ 1 | F/C < 1 |

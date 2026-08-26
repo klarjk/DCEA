@@ -16,6 +16,8 @@ astringent    dried fruit      flavor                 tone-downed, dull
 
 **Astringency sits at the fast end.** This is the opposite of conventional wisdom (astringency = over-extraction). In the author's model astringency arises not from "extracting too much" but from **water continuing to pass through even after the extractable F has run out**. [Hypothesis] (Source 01)
 
+That said, this ruler measures where the **average flow rate** sits. Astringency can appear even when the average is on the slow side — channeling and an excessive beverage weight create a "post-depletion stretch" independently of the average. Do not rule astringency out from a position on the ruler alone. The routes are told apart in the diagnosis entry below.
+
 ---
 
 ## Astringency and Greenness Are Diagnosed Separately
@@ -24,17 +26,31 @@ Both look like "too fast", but the manipulation target differs. Lump them togeth
 
 | | Astringency | Greenness (greenish) |
 |---|---|---|
-| Cause | the **peak instantaneous value** of flow velocity is high | the **average flow rate** (flow rate × time) is large |
-| Prescription | put a **cap** on the early flow rate | lower the concentration, or lower the flow velocity **across the whole run** |
+| Condition | extraction continues **after F has run out** | the **total amount** extracted is large |
+| Representative indicator | the **peak instantaneous value** of flow velocity (route ①) | the **average flow rate** (flow rate × time) |
+| Prescription | remove the post-depletion stretch — **cap** the early flow rate, fix the water distribution, cut the beverage weight | lower the concentration, or lower the flow velocity **across the whole run** |
+
+Do not rule astringency out merely because the peak flow velocity was low.
 
 ---
 
 ## Diagnosis and Prescription by Negative Sensory Note
 
 ### Astringency · dry
-- **Cause**: excessive absolute flow velocity / very high concentration / the coffee bed cannot support the flow (insufficient dose) / insufficient fines (a grinder with high unimodality) [Theory+Verified] (Source 07, 06)
-- **Prescription**: put a cap on the peak early flow rate. In the author's experiment, **lowering it to 4mlps or below made astringency entirely imperceptible**. (Source 06)
-- **Exception prescription**: if the drying sensation continues even when none of the conditions above apply → **raise the brew ratio (pour less water) and open up the grind size to hold the concentration**. On the author's equipment (P64 SSP LS): medium-light at 1:16 is slightly astringent and **at 1:15 there is almost none**; light and Nordic are fine up to 1:17. **This limit line differs from grinder to grinder.** [Observed] (Source 01)
+
+- **Condition under which it arises**: it appears **when extraction continues after F (flavor) has run out**. An excessive peak flow velocity is only one route to that condition, not the condition itself. The theory is in "The Condition Under Which Astringency Arises" in `model.md`. [Hypothesis] (Source 01)
+- **Look here first**: when the total flavor load is small, it runs out earlier on the very same recipe — insufficient fines · an insufficient dose · excessive degassing. These are tier 1, so they are not prescribed, but **if the recipe was left untouched and the cup suddenly turned astringent, suspect these first.** (Source 07, 06)
+- **Route triage** — check the clues from the top down, **stop at the first route that matches**, and prescribe only for that one.
+
+| Route | Clues | Prescription |
+|---|---|---|
+| ① Excessive peak flow velocity | a high early flow-rate peak · few pours, so the water level stayed high | put a cap on the peak early flow rate. In the author's experiment, **lowering it to 4mlps or below made astringency entirely imperceptible** [Verified] (Source 06) |
+| ② Channeling | an insufficient dose · the coffee bed cannot support the flow · the wetting was uneven · insufficient fines (a grinder with high unimodality) | fix **the water distribution before the flow-rate cap** — wet evenly, secure the dose, secure bed resistance with the first pour [Theory+Observed] (Source 01, 03) |
+| ③ Excessive beverage weight | the drying sensation continues even though neither route above applies | pour less water and **open up the grind size to hold the concentration**. On the author's equipment (P64 SSP LS), medium-light at 1:16 is slightly astringent and **at 1:15 there is almost none**; light and Nordic are fine up to 1:17. **This limit line differs from grinder to grinder** [Observed] (Source 01) |
+| ④ High flavor and high TDS together | the flow rate was set high but the brew was also pulled strong — less water poured, or a finer grind | **lower the flow rate so less is pulled from the F side**, and hold the TDS with the grind size. The flow-rate and TDS targets move together in opposite directions [Verified] (Source 01) |
+
+- **Concentration and perception**: at a high concentration astringency is perceived easily even when no more of it is produced. Separating arising from perceiving is covered in "The Condition Under Which Astringency Arises" in `model.md`. (Source 07)
+- **Forbidden**: do not answer astringency with a higher flow rate, a longer time, or a finer grind. That direction lengthens the post-depletion stretch.
 
 ### Piercing sourness
 - **Cause**: fast flow velocity + short time + small beverage weight + high concentration (Source 07)
