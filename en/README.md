@@ -82,13 +82,22 @@ cd build && zip -r ../dcea-en.zip dcea && cd ..
 
 ### ChatGPT and other AI apps
 
-They have no place to register a skill, so attach the archive at the start of each conversation and ask:
+They have no place to register a skill, so you attach the archive at the start of each conversation.
 
-```
-Unpack the attached archive and diagnose my extraction following the procedure in SKILL.md.
-```
+1. Download the archive from the [releases page](https://github.com/klarjk/DCEA/releases/latest). Expand the **Assets** list near the bottom of the page: `dcea-en.zip` is the English edition, `dcea.zip` the Korean one.
+2. **Do not unzip it.** Drag the `.zip` straight into the chat box, or use the paperclip attachment button. The tool has to be able to open an archive, so check that your plan includes file upload and code execution.
+3. Once it is attached, ask:
 
-Since it merely reads the files and follows along, results will be less consistent than on Claude.
+   ```
+   Unpack the attached archive and diagnose my extraction following the procedure in SKILL.md.
+   Read files from the references/ folder whenever you need them.
+   ```
+
+4. Repeat steps 1–3 in every new conversation. Nothing is stored on your account.
+
+If the tool cannot handle archives at all, opening `SKILL.md` and pasting its full text still gets you a basic diagnosis — but without the diagnosis tables and variable dictionary in `references/`, the prescriptions come out coarser.
+
+Either way it merely reads the files and follows along, so results will be less consistent than on Claude.
 
 ---
 
