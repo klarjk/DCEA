@@ -35,39 +35,42 @@
 
 ## 설치
 
-### 1. Claude Code
+경로는 둘 중 하나입니다. **Claude Code가 도는 곳이면 레포 주소만 주면 되고, 채팅으로 쓰시면 압축 파일을 한 번 올리면 됩니다.**
 
-Claude Code에게 이렇게 말하면 됩니다.
+### Claude에게 시키기 — Claude Code (터미널 · 데스크톱 앱 Code 탭 · IDE 확장)
+
+세 군데 모두 같은 방식입니다. Claude에게 이렇게 말하면 알아서 받아 설치합니다.
 
 ```
 https://github.com/klarjk/DCEA 를 ~/.claude/skills/dcea 에 설치해줘
 ```
 
-직접 하시려면 한 줄입니다.
+영문판을 쓰시려면 부탁을 한 줄만 바꿉니다.
 
-```bash
-git clone https://github.com/klarjk/DCEA.git ~/.claude/skills/dcea
+```
+https://github.com/klarjk/DCEA 를 받아서 en/ 폴더를 ~/.claude/skills/dcea 로 연결해줘
 ```
 
-영문판을 쓰시려면 `en/` 폴더를 설치 위치로 잡습니다.
+손수 하시려면 이렇습니다.
 
 ```bash
+# 한글판
+git clone https://github.com/klarjk/DCEA.git ~/.claude/skills/dcea
+
+# 영문판
 git clone https://github.com/klarjk/DCEA.git ~/DCEA
 ln -s ~/DCEA/en ~/.claude/skills/dcea
 ```
 
 재시작 없이 바로 인식됩니다. `/dcea`로 확인하세요.
 
-### 2. Claude 데스크톱 앱 · 웹
+### 채팅에서 쓰기 — 데스크톱 앱 Chat 탭 · claude.ai 웹 · 모바일
 
-먼저 **설정 → Capabilities에서 코드 실행(code execution)을 켭니다.** 이게 꺼져 있으면 스킬 항목 자체가 보이지 않습니다.
+채팅 쪽은 Claude가 파일을 놓을 자리가 없어 대신 설치해 주지 못합니다. 대신 **한 번 올리면 계정에 저장되어** 세 곳 어디서나 쓰입니다. 모바일에는 올리는 화면이 따로 없으니 데스크톱이나 웹에서 등록하세요.
 
-압축 파일을 [릴리스 페이지](https://github.com/klarjk/DCEA/releases/latest)에서 받습니다.
-
-- 한글판 → `dcea.zip`
-- 영문판 → `dcea-en.zip`
-
-받은 파일을 **사이드바 Customize → Skills → + → Upload a skill**로 올리고, 목록에서 켜면 끝입니다.
+1. **설정 → Capabilities에서 코드 실행(code execution)을 켭니다.** 꺼져 있으면 스킬 항목 자체가 보이지 않습니다.
+2. [릴리스 페이지](https://github.com/klarjk/DCEA/releases/latest)에서 압축 파일을 받습니다 — 한글판은 `dcea.zip`, 영문판은 `dcea-en.zip`.
+3. 사이드바 **Customize → Skills → + → Upload a skill**로 올리고, 목록에서 켜면 끝입니다.
 
 <details>
 <summary>직접 압축하고 싶다면</summary>
@@ -87,11 +90,7 @@ cd build-en && zip -r ../dcea-en.zip dcea && cd ..
 ```
 </details>
 
-### 3. Claude 모바일 앱
-
-모바일에는 따로 올리는 곳이 없습니다. 스킬은 계정에 저장되므로, **데스크톱이나 웹에서 한 번 등록해 켜 두면** 같은 계정으로 로그인한 모바일 앱 대화에서도 그대로 불러 쓸 수 있습니다.
-
-### 4. ChatGPT 등 다른 AI
+### ChatGPT 등 다른 AI
 
 스킬을 등록해 두는 기능이 없으므로, 대화를 시작할 때마다 압축 파일을 첨부하고 이렇게 부탁하시면 됩니다.
 
@@ -105,7 +104,7 @@ cd build-en && zip -r ../dcea-en.zip dcea && cd ..
 
 ## 쓰는 법
 
-Claude Code에서는 `/dcea`, 앱에서는 그냥 증상을 말하면 스킬이 붙습니다.
+Claude Code에서는 `/dcea`, 채팅에서는 그냥 증상을 말하면 스킬이 붙습니다.
 
 ```
 /dcea 오늘 샷이 떫게 나왔어
@@ -125,7 +124,7 @@ V60이 보리차 같아, 바리스타 모드로 봐줘
 
 ### 기록
 
-Claude Code에서는 장비·기준선·진단 이력이 `~/.claude/dcea/profile.md`에 쌓입니다. 같은 처방이 두 번 효과를 보면 그 값이 기준선으로 올라가고, 그 뒤로는 **저자의 수치보다 사용자의 실측값이 우선**합니다. 앱이나 다른 AI에서는 대화가 끝나면 사라지니, 장비와 평소 세팅을 앞부분에 한 줄로 적어 주시면 됩니다.
+Claude Code에서는 장비·기준선·진단 이력이 `~/.claude/dcea/profile.md`에 쌓입니다. 같은 처방이 두 번 효과를 보면 그 값이 기준선으로 올라가고, 그 뒤로는 **저자의 수치보다 사용자의 실측값이 우선**합니다. 채팅이나 다른 AI에서는 대화가 끝나면 사라지니, 장비와 평소 세팅을 앞부분에 한 줄로 적어 주시면 됩니다.
 
 ---
 

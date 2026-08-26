@@ -33,15 +33,17 @@ Mode changes **only the scope of the reply.** The diagnostic logic is identical 
 
 ## Installation
 
-### 1. Claude Code
+Two routes. **Anywhere Claude Code runs, the repository URL is all you need; if you use Claude in chat, upload the archive once.**
 
-Just tell Claude Code:
+### Ask Claude to do it — Claude Code (terminal · the Code tab in the desktop app · IDE extensions)
+
+All three work the same way. Tell Claude:
 
 ```
 Install https://github.com/klarjk/DCEA into ~/.claude/skills/dcea, using the en/ folder
 ```
 
-Or do it yourself — the repository root is the Korean edition, so point the skill directory at `en/`:
+The repository root is the Korean edition, so the `en/` folder is what you want. Doing it by hand:
 
 ```bash
 git clone https://github.com/klarjk/DCEA.git ~/DCEA
@@ -50,16 +52,13 @@ ln -s ~/DCEA/en ~/.claude/skills/dcea
 
 It is picked up without a restart. Type `/dcea` to confirm.
 
-### 2. Claude desktop app · web
+### Using it in chat — the Chat tab in the desktop app · claude.ai on the web · mobile
 
-First, **turn on code execution in Settings → Capabilities.** Without it the Skills section does not appear at all.
+Chat has no filesystem for Claude to install into, so this one is manual. **Upload it once and it lives on your account,** available in all three. There is nowhere to upload on mobile, so register it from desktop or the web.
 
-Download the archive from the [releases page](https://github.com/klarjk/DCEA/releases/latest):
-
-- English → `dcea-en.zip`
-- Korean → `dcea.zip`
-
-Then upload it via **Customize (sidebar) → Skills → + → Upload a skill** and toggle it on.
+1. **Turn on code execution in Settings → Capabilities.** Without it the Skills section does not appear at all.
+2. Download the archive from the [releases page](https://github.com/klarjk/DCEA/releases/latest) — `dcea-en.zip` for English, `dcea.zip` for Korean.
+3. Upload it via **Customize (sidebar) → Skills → + → Upload a skill** and toggle it on.
 
 <details>
 <summary>Building the archive yourself</summary>
@@ -75,11 +74,7 @@ cd build && zip -r ../dcea-en.zip dcea && cd ..
 ```
 </details>
 
-### 3. Claude mobile app
-
-There is nowhere to upload on mobile. Skills live on your account, so **register and enable it once on desktop or web** and it is available in mobile conversations under the same login.
-
-### 4. ChatGPT and other AI apps
+### ChatGPT and other AI apps
 
 They have no place to register a skill, so attach the archive at the start of each conversation and ask:
 
@@ -93,7 +88,7 @@ Since it merely reads the files and follows along, results will be less consiste
 
 ## Using it
 
-In Claude Code type `/dcea`; in the apps, just describe the symptom and the skill attaches itself.
+In Claude Code type `/dcea`; in chat, just describe the symptom and the skill attaches itself.
 
 ```
 /dcea today's shot came out astringent
@@ -113,7 +108,7 @@ No refractometer needed. It will not ask for one.
 
 ### Records
 
-In Claude Code, your equipment, baselines, and diagnosis history accumulate in `~/.claude/dcea/profile.md`. Once the same prescription is confirmed effective twice, that value is promoted to a baseline — and from then on **your measured values take precedence over the author's numbers.** In the apps and other AI tools nothing persists past the conversation, so state your equipment and usual settings in a line up front.
+In Claude Code, your equipment, baselines, and diagnosis history accumulate in `~/.claude/dcea/profile.md`. Once the same prescription is confirmed effective twice, that value is promoted to a baseline — and from then on **your measured values take precedence over the author's numbers.** In chat and other AI tools nothing persists past the conversation, so state your equipment and usual settings in a line up front.
 
 ---
 
