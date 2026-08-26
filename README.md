@@ -35,7 +35,7 @@
 
 ## 설치
 
-경로는 둘 중 하나입니다. **Claude Code가 도는 곳이면 레포 주소만 주면 되고, 채팅으로 쓰시면 압축 파일을 한 번 올리면 됩니다.**
+어디서 쓰시든 **레포 주소 하나로 시작합니다.** Claude Code에서는 Claude가 설치까지 끝내 주고, 채팅에서는 압축 파일까지 만들어 줍니다 — 등록만 손으로 하시면 됩니다.
 
 ### Claude에게 시키기 — Claude Code (터미널 · 데스크톱 앱 Code 탭 · IDE 확장)
 
@@ -66,11 +66,17 @@ ln -s ~/DCEA/en ~/.claude/skills/dcea
 
 ### 채팅에서 쓰기 — 데스크톱 앱 Chat 탭 · claude.ai 웹 · 모바일
 
-채팅 쪽은 Claude가 파일을 놓을 자리가 없어 대신 설치해 주지 못합니다. 대신 **한 번 올리면 계정에 저장되어** 세 곳 어디서나 쓰입니다. 모바일에는 올리는 화면이 따로 없으니 데스크톱이나 웹에서 등록하세요.
+채팅 쪽은 Claude가 스킬을 대신 등록해 주지는 못합니다. 압축 파일을 만들어 주는 데까지가 한계이고, 올리는 건 직접 하셔야 합니다. 대신 **한 번 올리면 계정에 저장되어** 세 곳 어디서나 쓰입니다. 모바일에는 올리는 화면이 따로 없으니 데스크톱이나 웹에서 등록하세요.
 
 1. **설정 → Capabilities에서 코드 실행(code execution)을 켭니다.** 꺼져 있으면 스킬 항목 자체가 보이지 않습니다.
-2. [릴리스 페이지](https://github.com/klarjk/DCEA/releases/latest)에서 압축 파일을 받습니다 — 한글판은 `dcea.zip`, 영문판은 `dcea-en.zip`.
-3. 사이드바 **Customize → Skills → + → Upload a skill**로 올리고, 목록에서 켜면 끝입니다.
+2. 압축 파일을 준비합니다. Claude에게 이렇게 부탁하면 레포를 받아 압축하고 내려받을 링크를 줍니다.
+
+   ```
+   https://github.com/klarjk/DCEA 를 받아서 dcea 폴더 하나가 최상위에 오도록 압축하고 내려받을 링크를 줘
+   ```
+
+   영문판은 `en/` 폴더 내용으로 만들어 달라고 덧붙이시면 됩니다. [릴리스 페이지](https://github.com/klarjk/DCEA/releases/latest)에서 바로 받아도 같습니다 — 한글판은 `dcea.zip`, 영문판은 `dcea-en.zip`.
+3. 받은 파일을 사이드바 **Customize → Skills → + → Upload a skill**로 올리고, 목록에서 켜면 끝입니다.
 
 <details>
 <summary>직접 압축하고 싶다면</summary>

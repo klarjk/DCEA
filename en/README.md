@@ -33,7 +33,7 @@ Mode changes **only the scope of the reply.** The diagnostic logic is identical 
 
 ## Installation
 
-Two routes. **Anywhere Claude Code runs, the repository URL is all you need; if you use Claude in chat, upload the archive once.**
+Wherever you use it, **you start with the repository URL.** In Claude Code, Claude finishes the install for you; in chat, it builds the archive and you register it yourself.
 
 ### Ask Claude to do it — Claude Code (terminal · the Code tab in the desktop app · IDE extensions)
 
@@ -54,10 +54,16 @@ It is picked up without a restart. Type `/dcea` to confirm.
 
 ### Using it in chat — the Chat tab in the desktop app · claude.ai on the web · mobile
 
-Chat has no filesystem for Claude to install into, so this one is manual. **Upload it once and it lives on your account,** available in all three. There is nowhere to upload on mobile, so register it from desktop or the web.
+In chat, Claude cannot register the skill for you. It can go as far as building the archive; uploading it is your job. **Upload it once and it lives on your account,** available in all three. There is nowhere to upload on mobile, so register it from desktop or the web.
 
 1. **Turn on code execution in Settings → Capabilities.** Without it the Skills section does not appear at all.
-2. Download the archive from the [releases page](https://github.com/klarjk/DCEA/releases/latest) — `dcea-en.zip` for English, `dcea.zip` for Korean.
+2. Get the archive. Ask Claude and it fetches the repository, zips it, and hands you a download link:
+
+   ```
+   Fetch https://github.com/klarjk/DCEA, put its en/ folder into a single folder named dcea, zip that, and give me a download link
+   ```
+
+   Downloading it straight from the [releases page](https://github.com/klarjk/DCEA/releases/latest) works the same — `dcea-en.zip` for English, `dcea.zip` for Korean.
 3. Upload it via **Customize (sidebar) → Skills → + → Upload a skill** and toggle it on.
 
 <details>
